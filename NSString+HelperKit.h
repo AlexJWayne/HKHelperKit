@@ -17,7 +17,7 @@
 - (BOOL)startsWithString:(NSString*)otherString;
 - (BOOL)endsWithString:(NSString*)otherString;
 
-// Returns YES is the string has content.  Readable shorthand for: (string && [string isEqualToString:@""])
+// Returns YES is the string has content.  Readable shorthand for: (string && ![string isEqualToString:@""])
 - (BOOL)isPresent;
 
 // Just like compare: but discards string case

@@ -1,0 +1,30 @@
+h1. HKHelperKit
+
+HKHelperKit fixes some annoyances when developing Objective-C applications.  Mostly it just adds some methods to SDK classes to make them easier and less verbose to use.
+
+h2. Usage
+
+# Clone this repository into a HKHelperKit subfolder within your project.
+# Drag the HKHelperKit folder into XCode.
+# Now simply use <tt>#include "HKHelperKit.h"</tt> anywhere that you want to use HKHelperKit methods.
+
+h2. Features
+
+HKHelperKit enhances the following classes in the following ways:
+
+h3. NSString
+
+* Added simple search methods that let you ask if a string is contained, starts with or ends with another string.
+* Added <tt>isPresent</tt> method that is shorthand for: <tt>string && ![string isEqualToString:@""]</tt>.
+* Added <tt>compareCaseInsensitive:</tt> method.
+* Added class methods for conversion to and from NSData objects.
+* Added a URL escape method <tt>stringByEscapingURL</tt>.
+
+h3. UIBarButtonItem
+
+* Added class level initializers for creating any kind of bar items.  Because this: <tt>[UIBarButtonItem flexibleSpace]</tt> is far more awesome than: <tt>[[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil] autorelease]</tt>.
+
+h3. UIImage
+
+* Added NSCoding support top UIImage
+* Added some simple methods for resizing images.
