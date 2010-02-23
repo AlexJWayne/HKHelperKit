@@ -28,3 +28,7 @@ h3. UIImage
 
 * Added NSCoding support top UIImage
 * Added some simple methods for resizing images.
+
+h3. UINavigationController
+
+* Added <tt>backViewController</tt> read only property that works just like <tt>topViewController</tt> except it return the controller immedaitely preceding the top one (or nil).
