@@ -11,4 +11,5 @@
 #import "UIBarButtonItem+HelperKit.h"
 #import "UIImage+HelperKit.h"
 #import "UINavigationController+HelperKit.h"
+#import "UIViewController+HelperKit.h"
 
