@@ -10,6 +10,11 @@
 
 @interface NSString (HelperKit)
 
+# pragma mark Initializers
+
++ (NSString*)stringWithContentsOfResource:(NSString*)resourceName;
+
+
 # pragma Comparing
 
 // Returns YES if the argument string can be found at the described location in the receiver string.

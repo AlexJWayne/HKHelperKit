@@ -14,6 +14,7 @@ HKHelperKit fixes some annoyances when developing Objective-C applications.  Mos
 
 ### NSString
 
+* `[NSString stringFromResource:@"MyFile.html"];` loads an app resource from teh main bundle with teh provided file name into an autoreleased string.
 * Simple search methods
     * `[@"foobar" conatinsString:@"oob"];`
     * `[@"foobar" startsWithString:@"foo"];`

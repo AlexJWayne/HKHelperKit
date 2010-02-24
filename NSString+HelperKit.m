@@ -10,6 +10,13 @@
 
 @implementation NSString (HelperKit)
 
+# pragma mark Initializers
+
++ (NSString*)stringFromResource:(NSString*)resourceName {
+    NSString *path = [[NSBundle mainBundle] pathForResource:resourceName ofType:nil];
+    return [NSString stringWithContentsOfFile:path usedEncoding:nil error:nil];
+}
+
 # pragma Comparing
 
 - (BOOL)containsString:(NSString *)otherString {
