@@ -28,6 +28,11 @@ HKHelperKit fixes some annoyances when developing Objective-C applications.  Mos
 * `[@"foo/space here" stringByEscapingURL]` => `@"foo%2Fspace%20here"`
 * `[@"foo/space here" stringByPercentEscapingCharacters:@" "]` => `@"foo/space%20here"`
 
+### UIAlertView
+
+* `[UIAlertView showSimpleAlertWithTitle:@"A Title" message:@"A Message!"];` Shows an alert with an `OK` button
+* `[UIAlertView showSimpleAlertWithTitle:@"A Title" message:@"A Message!" buttonTitle:@"Not OK"];` Shows an alert with a single custom button title
+
 ### UIBarButtonItem
 
 * Convenience Initializers
