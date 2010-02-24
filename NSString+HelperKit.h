@@ -12,12 +12,13 @@
 
 # pragma mark Initializers
 
-+ (NSString*)stringWithContentsOfResource:(NSString*)resourceName;
+// Instantiates a string from an app included resource in the main bundle
++ (NSString*)stringFromResource:(NSString*)resourceName;
 
 
 # pragma Comparing
 
-// Returns YES if the argument string can be found at the described location in the receiver string.
+// Returns YES if the argument string can be found at the described location in the receiver string
 - (BOOL)containsString:(NSString *)otherString;
 - (BOOL)startsWithString:(NSString*)otherString;
 - (BOOL)endsWithString:(NSString*)otherString;
