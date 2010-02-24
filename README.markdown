@@ -24,7 +24,8 @@ HKHelperKit fixes some annoyances when developing Objective-C applications.  Mos
     * `[NSString stingWithData:someNSDataObject];`
     * `[NSString stingWithData:someNSDataObject encoding:NSASCIIStringEncoding];`
     * `[@"foobar" data]`
-* `[@"foo bar" stringByEscapingURL]` => `@"foo%20bar"`
+* `[@"foo/space here" stringByEscapingURL]` => `@"foo%2Fspace%20here"`
+* `[@"foo/space here" stringByPercentEscapingCharacters:@" "]` => `@"foo/space%20here"`
 
 ### UIBarButtonItem
 
