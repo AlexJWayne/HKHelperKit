@@ -24,10 +24,10 @@
 #pragma mark Frame Manipulation
 
 // Center this view in it's superview
-- (void)center;
+- (void)centerInSuperview;
 
 // Center this view in it's superview only along a specific axis
-- (void)centerHorizontally:(BOOL)horizontal vertically:(BOOL)vertical;
+- (void)centerInSuperviewHorizontally:(BOOL)horizontal vertically:(BOOL)vertical;
 
 // Alter this views frame by pushing each edge inward by a specific amount
 - (void)padFrameWithTop:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom left:(CGFloat)left;

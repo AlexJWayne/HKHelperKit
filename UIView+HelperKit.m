@@ -24,11 +24,11 @@
 
 #pragma mark Frame Manipulation
 
-- (void)center {
-    [self centerHorizontally:YES vertically:YES];
+- (void)centerInSuperview {
+    [self centerInSuperviewHorizontally:YES vertically:YES];
 }
 
-- (void)centerHorizontally:(BOOL)horizontal vertically:(BOOL)vertical {
+- (void)centerInSuperviewHorizontally:(BOOL)horizontal vertically:(BOOL)vertical {
 	self.frame = CGRectCenterInRect(self.frame, self.superview.frame, horizontal, vertical);
 }
 
