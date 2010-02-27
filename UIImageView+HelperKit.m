@@ -12,7 +12,7 @@
 @implementation UIImageView (HelperKit)
 
 + (UIImageView*)viewWithImage:(UIImage*)image {
-    return [[[UIImage alloc] initWithImage:image] autorelease];
+    return [[[self alloc] initWithImage:image] autorelease];
 }
 
 @end
