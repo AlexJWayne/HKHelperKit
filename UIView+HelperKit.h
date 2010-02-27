@@ -15,10 +15,10 @@
 #pragma mark Convenience Initializers
 
 // Initialize an autoreleased view with a frame of CGRectZero
-+ (UIView*)view;
++ (id)view;
 
 // Initialize an autoreleased view with a specified frame
-+ (UIView*)viewWithFrame:(CGRect)frame;
++ (id)viewWithFrame:(CGRect)frame;
 
 
 #pragma mark Frame Manipulation

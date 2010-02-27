@@ -13,19 +13,19 @@
 
 #pragma mark Initializers
 
-+ (UIViewController*)controller {
++ (id)controller {
     return [self controllerWithNibName:nil bundle:nil];
 }
 
-+ (UIViewController*)controllerWithNib {
++ (id)controllerWithNib {
     return [[[self alloc] initWithNib] autorelease];
 }
 
-+ (UIViewController*)controllerWithNibName:(NSString*)nibNameOrNil {
++ (id)controllerWithNibName:(NSString*)nibNameOrNil {
     return [self controllerWithNibName:nibNameOrNil bundle:nil];
 }
 
-+ (UIViewController*)controllerWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)bundle {
++ (id)controllerWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)bundle {
     return [[[self alloc] initWithNibName:nibNameOrNil bundle:bundle] autorelease];
 }
 

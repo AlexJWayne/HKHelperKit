@@ -13,11 +13,11 @@
 
 #pragma mark Convenience Initializers
 
-+ (UIView*)view {
++ (id)view {
     return [self viewWithFrame:CGRectZero];
 }
 
-+ (UIView*)viewWithFrame:(CGRect)frame {
++ (id)viewWithFrame:(CGRect)frame {
     return [[[UIView alloc] initWithFrame:frame] autorelease];
 }
 

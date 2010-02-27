@@ -13,10 +13,10 @@
 
 #pragma mark Initializers
 
-+ (UIViewController*)controller;
-+ (UIViewController*)controllerWithNib; // Creates controller with a nib named same as the class: "FooController" would load "FooController.xib"
-+ (UIViewController*)controllerWithNibName:(NSString*)nibName;
-+ (UIViewController*)controllerWithNibName:(NSString*)nibName bundle:(NSBundle*)bundle;
++ (id)controller;
++ (id)controllerWithNib; // Creates controller with a nib named same as the class: "FooController" would load "FooController.xib"
++ (id)controllerWithNibName:(NSString*)nibName;
++ (id)controllerWithNibName:(NSString*)nibName bundle:(NSBundle*)bundle;
 
 - (id)initWithNibName:(NSString *)nibName;
 - (id)initWithNib; // Instance version of the controllerWithNib method
