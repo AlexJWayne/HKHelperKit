@@ -13,6 +13,7 @@
 #import "UIAlertView+HelperKit.h"
 #import "UIBarButtonItem+HelperKit.h"
 #import "UIImage+HelperKit.h"
+#import "UIImageView+HelperKit.h"
 #import "UINavigationController+HelperKit.h"
 #import "UIView+HelperKit.h"
 #import "UIViewController+HelperKit.h"
