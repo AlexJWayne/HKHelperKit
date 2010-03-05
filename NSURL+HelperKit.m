@@ -7,7 +7,7 @@
 //
 
 #import "NSURL+HelperKit.h"
-
+#import "NSString+HelperKit.h"
 
 @implementation NSURL (HelperKit)
 
