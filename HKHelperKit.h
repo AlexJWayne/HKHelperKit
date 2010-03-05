@@ -9,6 +9,7 @@
 #import "CGRect+HelperKit.h"
 
 #import "NSString+HelperKit.h"
+#import "NSURL+HelperKit.h"
 
 #import "UIAlertView+HelperKit.h"
 #import "UIBarButtonItem+HelperKit.h"
