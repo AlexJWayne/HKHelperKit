@@ -25,10 +25,10 @@
 #pragma mark Animation Helpers
 
 // Moves in the controller from the bottom of the screen like a modal presentation
-- (void)animateIn;
+- (void)slideUp;
 
 // Moves out the controller from the bottom of the screen like a modal dismissal
-- (void)animateOut;
+- (void)SlideDown;
 
 // Moves out the controller from the right of the screen like a navigation push
 - (void)slideIn;

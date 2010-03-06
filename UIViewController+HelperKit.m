@@ -41,12 +41,12 @@
 
 #pragma mark Animation Helpers
 
-- (void)animateIn {
+- (void)slideUp {
     self.view.hidden = NO;
     [self animateWithType:kCATransitionMoveIn direction:kCATransitionFromTop];
 }
 
-- (void)animateOut {
+- (void)slideDown {
     [self animateWithType:kCATransitionReveal direction:kCATransitionFromBottom];
     self.view.hidden = YES;
 }
