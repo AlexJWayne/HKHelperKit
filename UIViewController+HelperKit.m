@@ -42,6 +42,7 @@
 #pragma mark Animation Helpers
 
 - (void)animateIn {
+    self.view.hidden = NO;
     [self animateWithType:kCATransitionMoveIn direction:kCATransitionFromTop];
 }
 
@@ -51,6 +52,7 @@
 }
 
 - (void)slideIn {
+    self.view.hidden = NO;
     [self animateWithType:kCATransitionPush direction:kCATransitionFromRight];
 }
 
