@@ -38,4 +38,35 @@
     return [self initWithNibName:className];
 }
 
+
+#pragma mark Animation Helpers
+
+- (void)animateIn {
+    [self animateWithType:kCATransitionMoveIn direction:kCATransitionFromTop];
+}
+
+- (void)animateOut {
+    [self animateWithType:kCATransitionReveal direction:kCATransitionFromBottom];
+    self.view.hidden = YES;
+}
+
+- (void)slideIn {
+    [self animateWithType:kCATransitionPush direction:kCATransitionFromRight];
+}
+
+- (void)slideOut {
+    [self animateWithType:kCATransitionPush direction:kCATransitionFromLeft];
+    self.view.hidden = YES;
+}
+
+- (void)animateWithType:(NSString*)transition direction:(NSString*)direction {
+    CATransition* animation = [CATransition animation];
+	animation.type = transition;
+	animation.subtype = direction;
+	animation.duration = 0.5f;
+	animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    
+	[[self.view layer] addAnimation:animation forKey:nil];
+}
+
 @end
