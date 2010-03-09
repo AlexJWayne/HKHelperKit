@@ -16,6 +16,7 @@
 #import "UIImage+HelperKit.h"
 #import "UIImageView+HelperKit.h"
 #import "UINavigationController+HelperKit.h"
+#import "UITableView+HelperKit.h"
 #import "UIView+HelperKit.h"
 #import "UIViewController+HelperKit.h"
 
