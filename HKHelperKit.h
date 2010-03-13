@@ -10,6 +10,7 @@
 
 #import "NSString+HelperKit.h"
 #import "NSURL+HelperKit.h"
+#import "NSURLRequest+HelperKit.h"
 
 #import "UIAlertView+HelperKit.h"
 #import "UIBarButtonItem+HelperKit.h"
