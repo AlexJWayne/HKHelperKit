@@ -41,4 +41,21 @@
 }
 
 
+#pragma mark Animation
+
+- (void)animateFadeIn {
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.25];
+    self.alpha = 1.0;
+    [UIView commitAnimations];
+}
+
+- (void)animateFadeOut {
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.25];
+    self.alpha = 0.0;
+    [UIView commitAnimations];
+}
+
+
 @end

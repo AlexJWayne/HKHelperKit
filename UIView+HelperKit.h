@@ -35,5 +35,9 @@
 // Alter this views frame by moving it by an amount
 - (void)tranlateFrameByX:(CGFloat)x y:(CGFloat)y;
 
+#pragma mark Animation
+
+- (void)animateFadeIn;
+
 
 @end
