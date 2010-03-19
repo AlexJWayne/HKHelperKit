@@ -36,8 +36,8 @@
     self.frame = CGRectWithPadding(self.frame, top, right, bottom, left);
 }
 
-- (void)tranlateFrameByX:(CGFloat)x y:(CGFloat)y {
-    self.frame = CGRectWithTranslation(self.frame, x, y);
+- (void)tranlateFrame:(CGPoint)distance {
+    self.frame = CGRectWithTranslation(self.frame, distance.x, distance.y);
 }
 
 - (CGPoint)frameOrigin {
@@ -67,6 +67,36 @@
 - (void)setFrameY:(CGFloat)newY {
     CGRect newFrame = self.frame;
     newFrame.origin.y = newY;
+    self.frame = newFrame;
+}
+
+- (CGSize)frameSize {
+    return self.frame.size;
+}
+
+- (void)setFrameSize:(CGSize)newSize {
+    CGRect newFrame = self.frame;
+    newFrame.size = newSize;
+    self.frame = newFrame;
+}
+
+- (CGFloat)frameWidth {
+    return self.frame.size.width;
+}
+
+- (void)setFrameWidth:(CGFloat)newWidth {
+    CGRect newFrame = self.frame;
+    newFrame.size.width = newWidth;
+    self.frame = newFrame;
+}
+
+- (CGFloat)frameHeight {
+    return self.frame.size.height;
+}
+
+- (void)setFrameHeight:(CGFloat)newHeight {
+    CGRect newFrame = self.frame;
+    newFrame.size.height = newHeight;
     self.frame = newFrame;
 }
 
