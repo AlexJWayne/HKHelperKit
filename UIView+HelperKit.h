@@ -23,6 +23,10 @@
 
 #pragma mark Frame Manipulation
 
+@property (nonatomic, assign) CGPoint frameOrigin;
+@property (nonatomic, assign) CGFloat frameX;
+@property (nonatomic, assign) CGFloat frameY;
+
 // Center this view in it's superview
 - (void)centerInSuperview;
 

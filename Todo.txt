@@ -1,0 +1,3 @@
+view.frameSize = CGSizeMake(320, 480);
+view.frameWidth = 320;
+view.frameHeight = 480;

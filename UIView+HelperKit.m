@@ -40,6 +40,35 @@
     self.frame = CGRectWithTranslation(self.frame, x, y);
 }
 
+- (CGPoint)frameOrigin {
+    return self.frame.origin;
+}
+
+- (void)setFrameOrigin:(CGPoint)newOrigin {
+    CGRect newFrame = self.frame;
+    newFrame.origin = newOrigin;
+    self.frame = newFrame;
+}
+
+- (CGFloat)frameX {
+    return self.frame.origin.x;
+}
+
+- (void)setFrameX:(CGFloat)newX {
+    CGRect newFrame = self.frame;
+    newFrame.origin.x = newX;
+    self.frame = newFrame;
+}
+
+- (CGFloat)frameY {
+    return self.frame.origin.y;
+}
+
+- (void)setFrameY:(CGFloat)newY {
+    CGRect newFrame = self.frame;
+    newFrame.origin.y = newY;
+    self.frame = newFrame;
+}
 
 #pragma mark Animation
 
