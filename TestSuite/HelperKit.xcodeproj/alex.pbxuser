@@ -209,6 +209,12 @@
 		};
 	};
 	FA8657EF1153E14D006A1CA6 /* README.markdown */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = README.markdown;
+		path = /Users/alex/Projects/HelperKit/HKHelperKit/README.markdown;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1734, 1274}}";
 			sepNavSelRange = "{467, 0}";
@@ -216,6 +222,12 @@
 		};
 	};
 	FA8657F01153E14D006A1CA6 /* Todo.txt */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = Todo.txt;
+		path = /Users/alex/Projects/HelperKit/HKHelperKit/Todo.txt;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
 			sepNavSelRange = "{85, 0}";

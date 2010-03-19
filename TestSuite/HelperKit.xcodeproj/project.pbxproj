@@ -26,8 +26,6 @@
 		FA8658021153E14D006A1CA6 /* NSString+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657EA1153E14D006A1CA6 /* NSString+HelperKit.m */; };
 		FA8658031153E14D006A1CA6 /* NSURL+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657EC1153E14D006A1CA6 /* NSURL+HelperKit.m */; };
 		FA8658041153E14D006A1CA6 /* NSURLRequest+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657EE1153E14D006A1CA6 /* NSURLRequest+HelperKit.m */; };
-		FA8658051153E14D006A1CA6 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FA8657EF1153E14D006A1CA6 /* README.markdown */; };
-		FA8658061153E14D006A1CA6 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA8657F01153E14D006A1CA6 /* Todo.txt */; };
 		FA8658071153E14D006A1CA6 /* UIAlertView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657F21153E14D006A1CA6 /* UIAlertView+HelperKit.m */; };
 		FA8658081153E14D006A1CA6 /* UIBarButtonItem+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657F41153E14D006A1CA6 /* UIBarButtonItem+HelperKit.m */; };
 		FA8658091153E14D006A1CA6 /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657F61153E14D006A1CA6 /* UIImage+HelperKit.m */; };
@@ -37,6 +35,8 @@
 		FA86580D1153E14D006A1CA6 /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657FE1153E14D006A1CA6 /* UIView+HelperKit.m */; };
 		FA86580E1153E14D006A1CA6 /* UIViewController+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8658001153E14D006A1CA6 /* UIViewController+HelperKit.m */; };
 		FA8658151153E3BE006A1CA6 /* TestSuiteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8658141153E3BE006A1CA6 /* TestSuiteResult.m */; };
+		FAA6A2FF1153F9BA006E2B9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FD1153F9BA006E2B9D /* README.md */; };
+		FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */; };
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,8 +76,6 @@
 		FA8657EC1153E14D006A1CA6 /* NSURL+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+HelperKit.m"; path = "../HKHelperKit/NSURL+HelperKit.m"; sourceTree = SOURCE_ROOT; };
 		FA8657ED1153E14D006A1CA6 /* NSURLRequest+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+HelperKit.h"; path = "../HKHelperKit/NSURLRequest+HelperKit.h"; sourceTree = SOURCE_ROOT; };
 		FA8657EE1153E14D006A1CA6 /* NSURLRequest+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+HelperKit.m"; path = "../HKHelperKit/NSURLRequest+HelperKit.m"; sourceTree = SOURCE_ROOT; };
-		FA8657EF1153E14D006A1CA6 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = ../HKHelperKit/README.markdown; sourceTree = SOURCE_ROOT; };
-		FA8657F01153E14D006A1CA6 /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo.txt; path = ../HKHelperKit/Todo.txt; sourceTree = SOURCE_ROOT; };
 		FA8657F11153E14D006A1CA6 /* UIAlertView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+HelperKit.h"; path = "../HKHelperKit/UIAlertView+HelperKit.h"; sourceTree = SOURCE_ROOT; };
 		FA8657F21153E14D006A1CA6 /* UIAlertView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+HelperKit.m"; path = "../HKHelperKit/UIAlertView+HelperKit.m"; sourceTree = SOURCE_ROOT; };
 		FA8657F31153E14D006A1CA6 /* UIBarButtonItem+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+HelperKit.h"; path = "../HKHelperKit/UIBarButtonItem+HelperKit.h"; sourceTree = SOURCE_ROOT; };
@@ -96,6 +94,8 @@
 		FA8658001153E14D006A1CA6 /* UIViewController+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HelperKit.m"; path = "../HKHelperKit/UIViewController+HelperKit.m"; sourceTree = SOURCE_ROOT; };
 		FA8658131153E3BE006A1CA6 /* TestSuiteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSuiteResult.h; sourceTree = "<group>"; };
 		FA8658141153E3BE006A1CA6 /* TestSuiteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSuiteResult.m; sourceTree = "<group>"; };
+		FAA6A2FD1153F9BA006E2B9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
+		FAA6A2FE1153F9BA006E2B9D /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo.txt; path = ../Todo.txt; sourceTree = SOURCE_ROOT; };
 		FAD9D0391141E58900D31496 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -203,8 +203,8 @@
 		FA8657E51153E14D006A1CA6 /* HKHelperKit */ = {
 			isa = PBXGroup;
 			children = (
-				FA8657EF1153E14D006A1CA6 /* README.markdown */,
-				FA8657F01153E14D006A1CA6 /* Todo.txt */,
+				FAA6A2FD1153F9BA006E2B9D /* README.md */,
+				FAA6A2FE1153F9BA006E2B9D /* Todo.txt */,
 				FA8657E61153E14D006A1CA6 /* CGRect+HelperKit.h */,
 				FA8657E71153E14D006A1CA6 /* CGRect+HelperKit.m */,
 				FA8657E81153E14D006A1CA6 /* HKHelperKit.h */,
@@ -286,8 +286,8 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				FA8657741153E045006A1CA6 /* RootViewController.xib in Resources */,
-				FA8658051153E14D006A1CA6 /* README.markdown in Resources */,
-				FA8658061153E14D006A1CA6 /* Todo.txt in Resources */,
+				FAA6A2FF1153F9BA006E2B9D /* README.md in Resources */,
+				FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
