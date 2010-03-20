@@ -20,7 +20,7 @@
         return (BOOL)(image.size.width == decodedImage.size.width);
     }];
     
-    [self assert:@"should resize image" do:^{
+    [self assert:@"imageByResizing: should resize image" do:^{
         return (BOOL)([image imageByResizing:CGSizeMake(50, 50)].size.width == 50);
     }];
 }

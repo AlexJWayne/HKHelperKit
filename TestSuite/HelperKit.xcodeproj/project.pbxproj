@@ -38,6 +38,7 @@
 		FAA6A2FF1153F9BA006E2B9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FD1153F9BA006E2B9D /* README.md */; };
 		FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */; };
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
+		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		FAA6A2FD1153F9BA006E2B9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
 		FAA6A2FE1153F9BA006E2B9D /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo.txt; path = ../Todo.txt; sourceTree = SOURCE_ROOT; };
 		FAD9D0391141E58900D31496 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FADCE2501155599A009892B7 /* TestNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSURLRequest.h; sourceTree = "<group>"; };
+		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +193,8 @@
 				FA8657D41153E12F006A1CA6 /* TestNSString.m */,
 				FA8657D51153E12F006A1CA6 /* TestNSURL.h */,
 				FA8657D61153E12F006A1CA6 /* TestNSURL.m */,
+				FADCE2501155599A009892B7 /* TestNSURLRequest.h */,
+				FADCE2511155599A009892B7 /* TestNSURLRequest.m */,
 				FA8657D91153E12F006A1CA6 /* TestUIImage.h */,
 				FA8657DA1153E12F006A1CA6 /* TestUIImage.m */,
 				FA8657DB1153E12F006A1CA6 /* TestUINavigationController.h */,
@@ -205,9 +210,9 @@
 			children = (
 				FAA6A2FD1153F9BA006E2B9D /* README.md */,
 				FAA6A2FE1153F9BA006E2B9D /* Todo.txt */,
+				FA8657E81153E14D006A1CA6 /* HKHelperKit.h */,
 				FA8657E61153E14D006A1CA6 /* CGRect+HelperKit.h */,
 				FA8657E71153E14D006A1CA6 /* CGRect+HelperKit.m */,
-				FA8657E81153E14D006A1CA6 /* HKHelperKit.h */,
 				FA8657E91153E14D006A1CA6 /* NSString+HelperKit.h */,
 				FA8657EA1153E14D006A1CA6 /* NSString+HelperKit.m */,
 				FA8657EB1153E14D006A1CA6 /* NSURL+HelperKit.h */,
@@ -320,6 +325,7 @@
 				FA86580D1153E14D006A1CA6 /* UIView+HelperKit.m in Sources */,
 				FA86580E1153E14D006A1CA6 /* UIViewController+HelperKit.m in Sources */,
 				FA8658151153E3BE006A1CA6 /* TestSuiteResult.m in Sources */,
+				FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

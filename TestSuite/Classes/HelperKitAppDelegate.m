@@ -13,6 +13,7 @@
 
 #import "TestNSString.h"
 #import "TestNSURL.h"
+#import "TestNSURLRequest.h"
 #import "TestUIImage.h"
 #import "TestUINavigationController.h"
 #import "TestUIView.h"
@@ -49,6 +50,7 @@
     
     [TestNSString run];
     [TestNSURL run];
+    [TestNSURLRequest run];
     [TestUIImage run];
     [TestUINavigationController run];
     [TestUIView run];

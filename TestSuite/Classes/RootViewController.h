@@ -8,8 +8,10 @@
 
 @interface RootViewController : UITableViewController {
     NSDictionary *results;
+    NSArray *sectionNames;
 }
 
 @property (nonatomic, retain) NSDictionary *results;
+@property (nonatomic, retain) NSArray *sectionNames;
 
 @end

@@ -12,10 +12,9 @@
 @implementation TestUINavigationController
 
 - (void)tests {
-    [self assert:@"should have a backViewController" do:^{
+    [self assert:@"property backViewController should be the second to last view controller on the stack" do:^{
         UIViewController *controller1 = [UIViewController controller];
         UIViewController *controller2 = [UIViewController controller];
-        
         
         UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:controller1] autorelease];
         [navController pushViewController:controller2 animated:NO];

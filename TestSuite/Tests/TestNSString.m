@@ -12,32 +12,24 @@
 @implementation TestNSString
 
 - (void)tests {
-    [self assert:@"should contain string" do:^{
+    [self assert:@"containsString: should return YES for a found string" do:^{
         return (BOOL)[@"foobar" containsString:@"ooba"];
     }];
     
-    [self assert:@"should not contain string" do:^{
+    [self assert:@"containsString: should return NO for an unfound string" do:^{
         return (BOOL)![@"foobar" containsString:@"igloo"];
     }];
     
-    [self assert:@"'abc' should start with 'a'" do:^{
-        return (BOOL)[@"abc" startsWithString:@"a"];
-    }];
-    
-    [self assert:@"'abc' should not start with 'c'" do:^{
-        return (BOOL)![@"abc" startsWithString:@"c"];
-    }];
-    
-    [self assert:@"'abc' should compare case insensitive as preceding 'ZYX'" do:^{
+    [self assert:@"compareCaseInsensitive: should compare case insensitive as preceding 'abc' to 'ZYX'" do:^{
         return (BOOL)([@"abc" compareCaseInsensitive:@"ZYX"] == NSOrderedAscending);
     }];
     
-    [self assert:@"nil should return NO for isPresent" do:^{
+    [self assert:@"isPresent should return NO for nil string" do:^{
         NSString *nilString = nil;
         return (BOOL)![nilString isPresent];
     }];
     
-    [self assert:@"empty string should return NO for isPresent" do:^{
+    [self assert:@"isPresent should return NO for empty string" do:^{
         return (BOOL)![@"" isPresent];
     }];
     
@@ -45,28 +37,28 @@
         return (BOOL)[@"yay for me" isPresent];
     }];
     
-    [self assert:@"should create a NSData from string" do:^{
+    [self assert:@"data should create a NSData from a string" do:^{
         NSData *data = [@"I want candy" data];
         return (BOOL)(data != nil && [data isKindOfClass:[NSData class]]);
     }];
     
-    [self assert:@"should decode data into string" do:^{
+    [self assert:@"stringWithData: should decode data into a new string" do:^{
         return (BOOL)[[NSString stringWithData:[@"foobar" data]] isEqualToString:@"foobar"];
     }];
     
-    [self assert:@"should URL escape" do:^{
+    [self assert:@"stringByEscapingURL should URL escape a string" do:^{
         return (BOOL)[[@"foo/?a=b" stringByEscapingURL] isEqualToString:@"foo%2F%3Fa%3Db"];
     }];
     
-    [self assert:@"should percent escape specific characters" do:^{
+    [self assert:@"stringByPercentEscapingCharacters: should percent escape specific characters" do:^{
         return (BOOL)[[@"foo/?a=b" stringByPercentEscapingCharacters:@"?"] isEqualToString:@"foo/%3Fa=b"];
     }];
     
-    [self assert:@"should unescape percent encoded characters" do:^{
+    [self assert:@"stringByUnescapingURL should unescape percent encoded characters in a string" do:^{
         return (BOOL)[[@"foo%2F%3Fa%3Db" stringByUnescapingURL] isEqualToString:@"foo/?a=b"];
     }];
     
-//    [self assert:@"should escape HTML" do:^{
+//    [self assert:@"stringByEscapingHTML should escape HTML" do:^{
 //        return (BOOL)[[@"<foo>bar</foo>" stringByEscapingHTML] isEqualToString:@"&lt;foo&gt;bar&lt;foo&gt;"];
 //    }];
     

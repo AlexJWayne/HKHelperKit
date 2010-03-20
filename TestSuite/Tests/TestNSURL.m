@@ -14,7 +14,7 @@
 - (void)tests {
     NSURL *url = [NSURL URLWithString:@"http://foobar.com/path?foo=bar&word=some%20thing"];
     
-    [self assert:@"should return a dictionary from the query string" do:^{
+    [self assert:@"queryDictionary should return a dictionary from the query string" do:^{
         NSDictionary *dictionary = [url queryDictionary];
         
         BOOL correctAmount = ([dictionary count] == 2);

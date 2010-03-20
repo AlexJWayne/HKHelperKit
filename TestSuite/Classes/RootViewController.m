@@ -13,7 +13,7 @@
 
 @implementation RootViewController
 
-@synthesize results;
+@synthesize results, sectionNames;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,6 +21,7 @@
     
     HelperKitAppDelegate *appDelegate = (HelperKitAppDelegate*)[UIApplication sharedApplication].delegate;
     self.results = appDelegate.testResults;
+    self.sectionNames = [[results allKeys] sortedArrayUsingSelector:@selector(compare:)];
 }
 
 #pragma mark Table view methods
@@ -34,13 +35,13 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 0) return 1;
     
-    NSString *sectionName = [[results allKeys] objectAtIndex:section-1];
+    NSString *sectionName = [sectionNames objectAtIndex:section-1];
     return [[results objectForKey:sectionName] count];
 }
 
 - (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if (section == 0) return nil;
-    return [[results allKeys] objectAtIndex:section-1];
+    return [sectionNames objectAtIndex:section-1];
 }
 
 
@@ -93,7 +94,7 @@
         cell.textLabel.text = [NSString stringWithFormat:@"%d successes\n%d failures, %d errors", pass, fail, error];
         
     } else {
-        NSString *sectionName = [[results allKeys] objectAtIndex:indexPath.section-1];
+        NSString *sectionName = [sectionNames objectAtIndex:indexPath.section-1];
         TestSuiteResult *result = [[results objectForKey:sectionName] objectAtIndex:indexPath.row];
         
         cell.textLabel.text = result.assertion;
@@ -124,6 +125,7 @@
 
 - (void)dealloc {
     self.results = nil;
+    self.sectionNames = nil;
     [super dealloc];
 }
 
