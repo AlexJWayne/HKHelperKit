@@ -20,8 +20,6 @@
 
 // Returns YES if the argument string can be found at the described location in the receiver string
 - (BOOL)containsString:(NSString *)otherString;
-- (BOOL)startsWithString:(NSString*)otherString;
-- (BOOL)endsWithString:(NSString*)otherString;
 
 // Returns YES is the string has content.  Readable shorthand for: (string && ![string isEqualToString:@""])
 - (BOOL)isPresent;
