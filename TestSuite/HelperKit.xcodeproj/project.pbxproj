@@ -42,6 +42,8 @@
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
 		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 		FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */; };
+		FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A40115B351E00646310 /* TestNSDictionary.m */; };
+		FAE53A50115B365400646310 /* NSDictionary+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A4F115B365400646310 /* NSDictionary+HelperKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +110,10 @@
 		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 		FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSBundle.h; sourceTree = "<group>"; };
 		FADF3556115AC7E200E67276 /* TestNSBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSBundle.m; sourceTree = "<group>"; };
+		FAE53A3F115B351E00646310 /* TestNSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSDictionary.h; sourceTree = "<group>"; };
+		FAE53A40115B351E00646310 /* TestNSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSDictionary.m; sourceTree = "<group>"; };
+		FAE53A4E115B365400646310 /* NSDictionary+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HelperKit.h"; sourceTree = "<group>"; };
+		FAE53A4F115B365400646310 /* NSDictionary+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HelperKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,8 @@
 				FA8658141153E3BE006A1CA6 /* TestSuiteResult.m */,
 				FADF3555115AC7E200E67276 /* TestNSBundle.h */,
 				FADF3556115AC7E200E67276 /* TestNSBundle.m */,
+				FAE53A3F115B351E00646310 /* TestNSDictionary.h */,
+				FAE53A40115B351E00646310 /* TestNSDictionary.m */,
 				FA8657D31153E12F006A1CA6 /* TestNSString.h */,
 				FA8657D41153E12F006A1CA6 /* TestNSString.m */,
 				FA8657D51153E12F006A1CA6 /* TestNSURL.h */,
@@ -226,6 +234,8 @@
 				FA8657E71153E14D006A1CA6 /* CGRect+HelperKit.m */,
 				FA90BFD4115AC9660060D1E6 /* NSBundle+HelperKit.h */,
 				FA90BFD5115AC9660060D1E6 /* NSBundle+HelperKit.m */,
+				FAE53A4E115B365400646310 /* NSDictionary+HelperKit.h */,
+				FAE53A4F115B365400646310 /* NSDictionary+HelperKit.m */,
 				FA8657E91153E14D006A1CA6 /* NSString+HelperKit.h */,
 				FA8657EA1153E14D006A1CA6 /* NSString+HelperKit.m */,
 				FA8657EB1153E14D006A1CA6 /* NSURL+HelperKit.h */,
@@ -342,6 +352,8 @@
 				FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */,
 				FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */,
 				FA90BFD6115AC9660060D1E6 /* NSBundle+HelperKit.m in Sources */,
+				FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */,
+				FAE53A50115B365400646310 /* NSDictionary+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +399,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};

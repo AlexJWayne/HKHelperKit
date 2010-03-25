@@ -1,1 +1,3 @@
-[[NSBundle mainBundle] urlForResource:ofType:]
+[UIImageView viewWithImageNamed:]
+[webView loadURL:]
+NSMutableURLRequest setters as properties
