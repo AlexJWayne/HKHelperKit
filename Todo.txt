@@ -1,4 +1,3 @@
 NSMutableURLRequest setters as properties
-controllerWithNib should support portrait/landscape/ipad loading via naming convention
 [object isEqualToAnyOf:obj1, obj2, obj3, nil]
 [object isAnyOf:obj1, obj2, obj3, nil]

@@ -48,6 +48,8 @@
 		FADB50A3115C848600B068D2 /* TestUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB50A2115C848600B068D2 /* TestUIViewController.m */; };
 		FADB50F9115C890600B068D2 /* TestUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB50F8115C890600B068D2 /* TestUIDevice.m */; };
 		FADB5102115C89FE00B068D2 /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB5101115C89FE00B068D2 /* UIDevice+HelperKit.m */; };
+		FADB513C115C8CB000B068D2 /* TestNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB513B115C8CB000B068D2 /* TestNSObject.m */; };
+		FADB514F115C8DEF00B068D2 /* NSObject+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */; };
 		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 		FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */; };
 		FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A40115B351E00646310 /* TestNSDictionary.m */; };
@@ -127,6 +129,10 @@
 		FADB50F8115C890600B068D2 /* TestUIDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIDevice.m; sourceTree = "<group>"; };
 		FADB5100115C89FE00B068D2 /* UIDevice+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HelperKit.h"; sourceTree = "<group>"; };
 		FADB5101115C89FE00B068D2 /* UIDevice+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HelperKit.m"; sourceTree = "<group>"; };
+		FADB513A115C8CB000B068D2 /* TestNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSObject.h; sourceTree = "<group>"; };
+		FADB513B115C8CB000B068D2 /* TestNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSObject.m; sourceTree = "<group>"; };
+		FADB514D115C8DEF00B068D2 /* NSObject+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HelperKit.h"; sourceTree = "<group>"; };
+		FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HelperKit.m"; sourceTree = "<group>"; };
 		FADCE2501155599A009892B7 /* TestNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSURLRequest.h; sourceTree = "<group>"; };
 		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 		FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSBundle.h; sourceTree = "<group>"; };
@@ -234,6 +240,8 @@
 				FADB50F8115C890600B068D2 /* TestUIDevice.m */,
 				FAE53A3F115B351E00646310 /* TestNSDictionary.h */,
 				FAE53A40115B351E00646310 /* TestNSDictionary.m */,
+				FADB513A115C8CB000B068D2 /* TestNSObject.h */,
+				FADB513B115C8CB000B068D2 /* TestNSObject.m */,
 				FA8657D31153E12F006A1CA6 /* TestNSString.h */,
 				FA8657D41153E12F006A1CA6 /* TestNSString.m */,
 				FA8657D51153E12F006A1CA6 /* TestNSURL.h */,
@@ -266,6 +274,8 @@
 				FA90BFD5115AC9660060D1E6 /* NSBundle+HelperKit.m */,
 				FAE53A4E115B365400646310 /* NSDictionary+HelperKit.h */,
 				FAE53A4F115B365400646310 /* NSDictionary+HelperKit.m */,
+				FADB514D115C8DEF00B068D2 /* NSObject+HelperKit.h */,
+				FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */,
 				FA8657E91153E14D006A1CA6 /* NSString+HelperKit.h */,
 				FA8657EA1153E14D006A1CA6 /* NSString+HelperKit.m */,
 				FA8657EB1153E14D006A1CA6 /* NSURL+HelperKit.h */,
@@ -396,6 +406,8 @@
 				FADB50A3115C848600B068D2 /* TestUIViewController.m in Sources */,
 				FADB50F9115C890600B068D2 /* TestUIDevice.m in Sources */,
 				FADB5102115C89FE00B068D2 /* UIDevice+HelperKit.m in Sources */,
+				FADB513C115C8CB000B068D2 /* TestNSObject.m in Sources */,
+				FADB514F115C8DEF00B068D2 /* NSObject+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

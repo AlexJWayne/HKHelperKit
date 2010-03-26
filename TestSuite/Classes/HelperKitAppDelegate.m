@@ -13,6 +13,7 @@
 
 #import "TestNSBundle.h"
 #import "TestNSDictionary.h"
+#import "TestNSObject.h"
 #import "TestNSString.h"
 #import "TestNSURL.h"
 #import "TestNSURLRequest.h"
@@ -56,9 +57,11 @@
     
     [TestNSBundle run];
     [TestNSDictionary run];
+    [TestNSObject run];
     [TestNSString run];
     [TestNSURL run];
     [TestNSURLRequest run];
+    
     [TestUIImage run];
     [TestUIImageView run];
     [TestUINavigationController run];

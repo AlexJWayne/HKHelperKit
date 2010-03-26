@@ -202,25 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>FADB5116115C8A7000B068D2</string>
+				<string>FADB5149115C8D6F00B068D2</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>UIViewController+HelperKit.h</string>
+				<string>Todo.txt</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>FADB5117115C8A7000B068D2</string>
+						<string>FADB514A115C8D6F00B068D2</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>UIViewController+HelperKit.h</string>
+						<string>Todo.txt</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>FADB5138115C8C6700B068D2</string>
+						<string>FADB51B4115C926200B068D2</string>
 						<key>history</key>
 						<array>
-							<string>FADB512E115C8C5000B068D2</string>
-							<string>FADB5118115C8A7000B068D2</string>
+							<string>FADB513D115C8CD300B068D2</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -236,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>15 372 937 1041 0 0 2560 1418 </string>
+				<string>61 330 937 1041 0 0 2560 1418 </string>
 			</dict>
 		</dict>
 	</array>
@@ -322,13 +321,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>45</integer>
-									<integer>42</integer>
+									<integer>27</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 350}, {282, 1316}}</string>
+							<string>{{0, 268}, {282, 1316}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -363,7 +362,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FA25BD1B112B73FB000601BE</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TestUIViewController.m</string>
+								<string>TestNSObject.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -371,11 +370,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FA25BD1C112B73FB000601BE</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TestUIViewController.m</string>
+										<string>TestNSObject.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FADB5137115C8C6700B068D2</string>
+										<string>FADB51B3115C926200B068D2</string>
 										<key>history</key>
 										<array>
 											<string>FA8658251153E659006A1CA6</string>
@@ -399,7 +398,6 @@
 											<string>FA90BFB6115AC8D00060D1E6</string>
 											<string>FA90BFF6115ACA7C0060D1E6</string>
 											<string>FA90C00C115ACAC70060D1E6</string>
-											<string>FA90C01E115ACB230060D1E6</string>
 											<string>FA90C01F115ACB230060D1E6</string>
 											<string>FA90C031115ACB870060D1E6</string>
 											<string>FA90C048115ACFC00060D1E6</string>
@@ -428,18 +426,24 @@
 											<string>FADB506D115C5F5500B068D2</string>
 											<string>FADB507A115C5FA100B068D2</string>
 											<string>FADB5085115C604700B068D2</string>
-											<string>FADB5086115C604700B068D2</string>
 											<string>FADB50A8115C84D400B068D2</string>
 											<string>FADB50BF115C85D000B068D2</string>
 											<string>FADB510D115C8A7000B068D2</string>
-											<string>FADB510E115C8A7000B068D2</string>
-											<string>FADB510F115C8A7000B068D2</string>
 											<string>FADB5110115C8A7000B068D2</string>
 											<string>FADB5111115C8A7000B068D2</string>
 											<string>FADB5112115C8A7000B068D2</string>
 											<string>FADB5113115C8A7000B068D2</string>
-											<string>FADB511E115C8A8A00B068D2</string>
-											<string>FADB5132115C8C5700B068D2</string>
+											<string>FADB5142115C8D6F00B068D2</string>
+											<string>FADB515B115C8EFA00B068D2</string>
+											<string>FADB515C115C8EFA00B068D2</string>
+											<string>FADB516B115C8F1C00B068D2</string>
+											<string>FADB5174115C8F4A00B068D2</string>
+											<string>FADB519A115C90A900B068D2</string>
+											<string>FADB51A3115C923300B068D2</string>
+											<string>FADB51A4115C923300B068D2</string>
+											<string>FADB51A5115C923300B068D2</string>
+											<string>FADB51B1115C926200B068D2</string>
+											<string>FADB51B2115C926200B068D2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -756,10 +760,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FADB5139115C8C6700B068D2</string>
+		<string>FADB51B0115C924600B068D2</string>
 		<string>FADB4F39115C521900B068D2</string>
 		<string>FADB4F3B115C521900B068D2</string>
-		<string>FADB5116115C8A7000B068D2</string>
+		<string>FADB5149115C8D6F00B068D2</string>
 		<string>/Users/alex/Projects/HelperKit/TestSuite/HelperKit.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
