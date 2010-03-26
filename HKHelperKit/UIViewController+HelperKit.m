@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+HelperKit.h"
+#import "UIDevice+HelperKit.h"
 
 
 @implementation UIViewController (HelperKit)
@@ -29,8 +30,32 @@
     return [[[self alloc] initWithNibName:nibNameOrNil bundle:bundle] autorelease];
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil {
-    return [self initWithNibName:nibNameOrNil bundle:nil];
+- (id)initWithNibName:(NSString *)name {
+    NSString *deviceName = [UIDevice currentDevice].screenTypeString;
+    NSString *orientationName;
+    if (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation)) {
+        orientationName = @"Portrait";
+    } else {
+        orientationName = @"Landscape";
+    }
+    
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *extendedNibName = nil;
+    BOOL foundNib = NO;
+    
+    extendedNibName = [NSString stringWithFormat:@"%@.%@.%@", name, deviceName, orientationName];
+    foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
+    
+    if (!foundNib) {
+        extendedNibName = [NSString stringWithFormat:@"%@.%@", name, deviceName];
+        foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
+    }
+    
+    if (!foundNib) {
+        extendedNibName = name;
+    }
+    
+    return [self initWithNibName:extendedNibName bundle:nil];
 }
 
 - (id)initWithNib {

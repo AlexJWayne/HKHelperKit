@@ -16,10 +16,13 @@
 #import "TestNSString.h"
 #import "TestNSURL.h"
 #import "TestNSURLRequest.h"
+
+#import "TestUIDevice.h"
 #import "TestUIImage.h"
 #import "TestUIImageView.h"
 #import "TestUINavigationController.h"
 #import "TestUIView.h"
+#import "TestUIViewController.h"
 
 
 @implementation HelperKitAppDelegate
@@ -60,6 +63,7 @@
     [TestUIImageView run];
     [TestUINavigationController run];
     [TestUIView run];
+    [TestUIViewController run];
 }
 
 @end

@@ -42,6 +42,12 @@
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
 		FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB4F26115C514700B068D2 /* TestUIImageView.m */; };
 		FADB4F4D115C532300B068D2 /* UIWebView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB4F4C115C532300B068D2 /* UIWebView+HelperKit.m */; };
+		FADB509C115C83DA00B068D2 /* FooController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADB509B115C83DA00B068D2 /* FooController.xib */; };
+		FADB509E115C83E300B068D2 /* FooController.iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADB509D115C83E300B068D2 /* FooController.iPhone.xib */; };
+		FADB50A0115C83F100B068D2 /* FooController.iPhone.Landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADB509F115C83F100B068D2 /* FooController.iPhone.Landscape.xib */; };
+		FADB50A3115C848600B068D2 /* TestUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB50A2115C848600B068D2 /* TestUIViewController.m */; };
+		FADB50F9115C890600B068D2 /* TestUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB50F8115C890600B068D2 /* TestUIDevice.m */; };
+		FADB5102115C89FE00B068D2 /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB5101115C89FE00B068D2 /* UIDevice+HelperKit.m */; };
 		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 		FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */; };
 		FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A40115B351E00646310 /* TestNSDictionary.m */; };
@@ -112,6 +118,15 @@
 		FADB4F26115C514700B068D2 /* TestUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIImageView.m; sourceTree = "<group>"; };
 		FADB4F4B115C532300B068D2 /* UIWebView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HelperKit.h"; sourceTree = "<group>"; };
 		FADB4F4C115C532300B068D2 /* UIWebView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HelperKit.m"; sourceTree = "<group>"; };
+		FADB509B115C83DA00B068D2 /* FooController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooController.xib; sourceTree = "<group>"; };
+		FADB509D115C83E300B068D2 /* FooController.iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooController.iPhone.xib; sourceTree = "<group>"; };
+		FADB509F115C83F100B068D2 /* FooController.iPhone.Landscape.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooController.iPhone.Landscape.xib; sourceTree = "<group>"; };
+		FADB50A1115C848600B068D2 /* TestUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIViewController.h; sourceTree = "<group>"; };
+		FADB50A2115C848600B068D2 /* TestUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIViewController.m; sourceTree = "<group>"; };
+		FADB50F7115C890600B068D2 /* TestUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIDevice.h; sourceTree = "<group>"; };
+		FADB50F8115C890600B068D2 /* TestUIDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIDevice.m; sourceTree = "<group>"; };
+		FADB5100115C89FE00B068D2 /* UIDevice+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HelperKit.h"; sourceTree = "<group>"; };
+		FADB5101115C89FE00B068D2 /* UIDevice+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HelperKit.m"; sourceTree = "<group>"; };
 		FADCE2501155599A009892B7 /* TestNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSURLRequest.h; sourceTree = "<group>"; };
 		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 		FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSBundle.h; sourceTree = "<group>"; };
@@ -188,6 +203,9 @@
 				FA90BFC8115AC8F50060D1E6 /* Home.png */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* HelperKit-Info.plist */,
+				FADB509B115C83DA00B068D2 /* FooController.xib */,
+				FADB509D115C83E300B068D2 /* FooController.iPhone.xib */,
+				FADB509F115C83F100B068D2 /* FooController.iPhone.Landscape.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -212,6 +230,8 @@
 				FA8658141153E3BE006A1CA6 /* TestSuiteResult.m */,
 				FADF3555115AC7E200E67276 /* TestNSBundle.h */,
 				FADF3556115AC7E200E67276 /* TestNSBundle.m */,
+				FADB50F7115C890600B068D2 /* TestUIDevice.h */,
+				FADB50F8115C890600B068D2 /* TestUIDevice.m */,
 				FAE53A3F115B351E00646310 /* TestNSDictionary.h */,
 				FAE53A40115B351E00646310 /* TestNSDictionary.m */,
 				FA8657D31153E12F006A1CA6 /* TestNSString.h */,
@@ -228,6 +248,8 @@
 				FA8657DC1153E12F006A1CA6 /* TestUINavigationController.m */,
 				FA8657DD1153E12F006A1CA6 /* TestUIView.h */,
 				FA8657DE1153E12F006A1CA6 /* TestUIView.m */,
+				FADB50A1115C848600B068D2 /* TestUIViewController.h */,
+				FADB50A2115C848600B068D2 /* TestUIViewController.m */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -254,6 +276,8 @@
 				FA8657F21153E14D006A1CA6 /* UIAlertView+HelperKit.m */,
 				FA8657F31153E14D006A1CA6 /* UIBarButtonItem+HelperKit.h */,
 				FA8657F41153E14D006A1CA6 /* UIBarButtonItem+HelperKit.m */,
+				FADB5100115C89FE00B068D2 /* UIDevice+HelperKit.h */,
+				FADB5101115C89FE00B068D2 /* UIDevice+HelperKit.m */,
 				FA8657F51153E14D006A1CA6 /* UIImage+HelperKit.h */,
 				FA8657F61153E14D006A1CA6 /* UIImage+HelperKit.m */,
 				FA8657F71153E14D006A1CA6 /* UIImageView+HelperKit.h */,
@@ -327,6 +351,9 @@
 				FAA6A2FF1153F9BA006E2B9D /* README.md in Resources */,
 				FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */,
 				FA90BFC9115AC8F50060D1E6 /* Home.png in Resources */,
+				FADB509C115C83DA00B068D2 /* FooController.xib in Resources */,
+				FADB509E115C83E300B068D2 /* FooController.iPhone.xib in Resources */,
+				FADB50A0115C83F100B068D2 /* FooController.iPhone.Landscape.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +393,9 @@
 				FAE53A50115B365400646310 /* NSDictionary+HelperKit.m in Sources */,
 				FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */,
 				FADB4F4D115C532300B068D2 /* UIWebView+HelperKit.m in Sources */,
+				FADB50A3115C848600B068D2 /* TestUIViewController.m in Sources */,
+				FADB50F9115C890600B068D2 /* TestUIDevice.m in Sources */,
+				FADB5102115C89FE00B068D2 /* UIDevice+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
