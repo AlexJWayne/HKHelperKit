@@ -280,13 +280,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
+									<integer>26</integer>
 									<integer>12</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {282, 1316}}</string>
+							<string>{{0, 6}, {282, 1316}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FA25BD1B112B73FB000601BE</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TestUIImageView.m</string>
+								<string>TestNSURLRequest.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,25 +329,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FA25BD1C112B73FB000601BE</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TestUIImageView.m</string>
+										<string>TestNSURLRequest.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FADB4F46115C528E00B068D2</string>
+										<string>FADB507C115C5FA100B068D2</string>
 										<key>history</key>
 										<array>
 											<string>FA8658251153E659006A1CA6</string>
 											<string>FA86582E1153E66A006A1CA6</string>
 											<string>FAA6A2F41153F893006E2B9D</string>
-											<string>FAA6A2FA1153F91B006E2B9D</string>
-											<string>FAA6A3011153F9E5006E2B9D</string>
 											<string>FADCE233115557DF009892B7</string>
 											<string>FADCE2441155588A009892B7</string>
 											<string>FADCE24B1155592D009892B7</string>
 											<string>FADCE24C1155592D009892B7</string>
 											<string>FADCE25C11555B81009892B7</string>
 											<string>FADCE25D11555B81009892B7</string>
-											<string>FADCE26011555B81009892B7</string>
 											<string>FADCE26311555B81009892B7</string>
 											<string>FADCE26411555B81009892B7</string>
 											<string>FADCE26511555B81009892B7</string>
@@ -355,25 +352,20 @@
 											<string>FADCE26811555B81009892B7</string>
 											<string>FADCE26911555B81009892B7</string>
 											<string>FADCE26A11555B81009892B7</string>
-											<string>FADCE26D11555B81009892B7</string>
 											<string>FADCE26E11555B81009892B7</string>
 											<string>FADCE27011555B81009892B7</string>
 											<string>FADCE27111555B81009892B7</string>
 											<string>FADF355A115AC83F00E67276</string>
-											<string>FA90BFA5115AC8BA0060D1E6</string>
 											<string>FA90BFB6115AC8D00060D1E6</string>
-											<string>FA90BFB7115AC8D00060D1E6</string>
 											<string>FA90BFF6115ACA7C0060D1E6</string>
 											<string>FA90C00C115ACAC70060D1E6</string>
 											<string>FA90C01E115ACB230060D1E6</string>
 											<string>FA90C01F115ACB230060D1E6</string>
-											<string>FA90C030115ACB870060D1E6</string>
 											<string>FA90C031115ACB870060D1E6</string>
 											<string>FA90C048115ACFC00060D1E6</string>
 											<string>FA90C049115ACFC00060D1E6</string>
 											<string>FAE53A66115B371A00646310</string>
 											<string>FAE53A67115B371A00646310</string>
-											<string>FAE53A69115B371A00646310</string>
 											<string>FAE53A6A115B371A00646310</string>
 											<string>FAE53A88115B37BE00646310</string>
 											<string>FAE53A8E115B37E500646310</string>
@@ -381,12 +373,25 @@
 											<string>FAE53AA4115BBFFC00646310</string>
 											<string>FAE53AA6115BBFFC00646310</string>
 											<string>FAEF72BA115C1C3300943BAA</string>
-											<string>FADB4F2C115C521900B068D2</string>
 											<string>FADB4F2D115C521900B068D2</string>
 											<string>FADB4F42115C528E00B068D2</string>
 											<string>FADB4F43115C528E00B068D2</string>
-											<string>FADB4F44115C528E00B068D2</string>
-											<string>FADB4F45115C528E00B068D2</string>
+											<string>FADB4F5D115C54F300B068D2</string>
+											<string>FADB4F5E115C54F300B068D2</string>
+											<string>FADB4F5F115C54F300B068D2</string>
+											<string>FADB4F60115C54F300B068D2</string>
+											<string>FADB4F61115C54F300B068D2</string>
+											<string>FADB4F63115C54F300B068D2</string>
+											<string>FADB4F7A115C55C400B068D2</string>
+											<string>FADB4F7B115C55C400B068D2</string>
+											<string>FADB4FDE115C5B7400B068D2</string>
+											<string>FADB4FDF115C5B7400B068D2</string>
+											<string>FADB4FE5115C5B7E00B068D2</string>
+											<string>FADB5003115C5BCE00B068D2</string>
+											<string>FADB5066115C5F4E00B068D2</string>
+											<string>FADB506D115C5F5500B068D2</string>
+											<string>FADB507A115C5FA100B068D2</string>
+											<string>FADB507B115C5FA100B068D2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -441,9 +446,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1210, 372}}</string>
-										<key>RubberWindowFrame</key>
-										<string>461 43 1514 1375 0 0 2560 1418 </string>
+										<string>{{10, 27}, {1210, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -481,7 +484,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{0, 0}, {568, 405}}</string>
+										<string>{{10, 27}, {1210, 372}}</string>
+										<key>RubberWindowFrame</key>
+										<string>461 43 1514 1375 0 0 2560 1418 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -703,7 +708,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FADB4F47115C528E00B068D2</string>
+		<string>FADB5078115C5F7800B068D2</string>
 		<string>FADB4F39115C521900B068D2</string>
 		<string>FADB4F3B115C521900B068D2</string>
 		<string>/Users/alex/Projects/HelperKit/TestSuite/HelperKit.xcodeproj</string>
