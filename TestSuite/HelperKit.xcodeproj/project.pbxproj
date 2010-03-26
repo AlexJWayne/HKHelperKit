@@ -41,6 +41,7 @@
 		FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */; };
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
 		FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB4F26115C514700B068D2 /* TestUIImageView.m */; };
+		FADB4F4D115C532300B068D2 /* UIWebView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB4F4C115C532300B068D2 /* UIWebView+HelperKit.m */; };
 		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 		FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */; };
 		FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A40115B351E00646310 /* TestNSDictionary.m */; };
@@ -109,6 +110,8 @@
 		FAD9D0391141E58900D31496 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FADB4F25115C514700B068D2 /* TestUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIImageView.h; sourceTree = "<group>"; };
 		FADB4F26115C514700B068D2 /* TestUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIImageView.m; sourceTree = "<group>"; };
+		FADB4F4B115C532300B068D2 /* UIWebView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HelperKit.h"; sourceTree = "<group>"; };
+		FADB4F4C115C532300B068D2 /* UIWebView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HelperKit.m"; sourceTree = "<group>"; };
 		FADCE2501155599A009892B7 /* TestNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSURLRequest.h; sourceTree = "<group>"; };
 		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 		FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSBundle.h; sourceTree = "<group>"; };
@@ -263,6 +266,8 @@
 				FA8657FE1153E14D006A1CA6 /* UIView+HelperKit.m */,
 				FA8657FF1153E14D006A1CA6 /* UIViewController+HelperKit.h */,
 				FA8658001153E14D006A1CA6 /* UIViewController+HelperKit.m */,
+				FADB4F4B115C532300B068D2 /* UIWebView+HelperKit.h */,
+				FADB4F4C115C532300B068D2 /* UIWebView+HelperKit.m */,
 			);
 			name = HKHelperKit;
 			path = ../HKHelperKit;
@@ -360,6 +365,7 @@
 				FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */,
 				FAE53A50115B365400646310 /* NSDictionary+HelperKit.m in Sources */,
 				FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */,
+				FADB4F4D115C532300B068D2 /* UIWebView+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

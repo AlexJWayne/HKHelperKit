@@ -395,6 +395,20 @@
 			sepNavVisRange = "{0, 889}";
 		};
 	};
+	FA8657F71153E14D006A1CA6 /* UIImageView+HelperKit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 875}}";
+			sepNavSelRange = "{246, 46}";
+			sepNavVisRange = "{0, 299}";
+		};
+	};
+	FA8657F81153E14D006A1CA6 /* UIImageView+HelperKit.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
+			sepNavSelRange = "{465, 0}";
+			sepNavVisRange = "{0, 474}";
+		};
+	};
 	FA8657F91153E14D006A1CA6 /* UINavigationController+HelperKit.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
@@ -646,9 +660,9 @@
 	};
 	FAA6A2FE1153F9BA006E2B9D /* Todo.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1149, 1297}}";
-			sepNavSelRange = "{181, 0}";
-			sepNavVisRange = "{0, 181}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 147}";
 			sepNavWindowFrame = "{{61, 330}, {937, 1041}}";
 		};
 	};
@@ -681,7 +695,7 @@
 		fRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */;
 		name = "Todo.txt: 4";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 147;
 		rType = 0;
 		vrLen = 181;
 		vrLoc = 0;
@@ -1145,7 +1159,7 @@
 		fRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */;
 		name = "Todo.txt: 4";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 147;
 		rType = 0;
 		vrLen = 181;
 		vrLoc = 0;

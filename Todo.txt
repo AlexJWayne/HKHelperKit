@@ -1,4 +1,3 @@
-[UIImageView viewWithImageNamed:]
 [webView loadURL:]
 NSMutableURLRequest setters as properties
 controllerWithNib should support portrait/landscape/ipad loading via naming convention
