@@ -15,4 +15,9 @@
     return [[[self alloc] initWithImage:image] autorelease];
 }
 
++ (id)viewWithImageNamed:(NSString*)imageName {
+    UIImage *image = [UIImage imageNamed:imageName];
+    return [self viewWithImage:image];
+}
+
 @end

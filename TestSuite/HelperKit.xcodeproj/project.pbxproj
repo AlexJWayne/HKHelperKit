@@ -40,6 +40,7 @@
 		FAA6A2FF1153F9BA006E2B9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FD1153F9BA006E2B9D /* README.md */; };
 		FAA6A3001153F9BA006E2B9D /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA6A2FE1153F9BA006E2B9D /* Todo.txt */; };
 		FAD9D03A1141E58900D31496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9D0391141E58900D31496 /* QuartzCore.framework */; };
+		FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB4F26115C514700B068D2 /* TestUIImageView.m */; };
 		FADCE2521155599A009892B7 /* TestNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2511155599A009892B7 /* TestNSURLRequest.m */; };
 		FADF3557115AC7E200E67276 /* TestNSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */; };
 		FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53A40115B351E00646310 /* TestNSDictionary.m */; };
@@ -106,6 +107,8 @@
 		FAA6A2FD1153F9BA006E2B9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
 		FAA6A2FE1153F9BA006E2B9D /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo.txt; path = ../Todo.txt; sourceTree = SOURCE_ROOT; };
 		FAD9D0391141E58900D31496 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FADB4F25115C514700B068D2 /* TestUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIImageView.h; sourceTree = "<group>"; };
+		FADB4F26115C514700B068D2 /* TestUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIImageView.m; sourceTree = "<group>"; };
 		FADCE2501155599A009892B7 /* TestNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSURLRequest.h; sourceTree = "<group>"; };
 		FADCE2511155599A009892B7 /* TestNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSURLRequest.m; sourceTree = "<group>"; };
 		FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSBundle.h; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 				FADCE2511155599A009892B7 /* TestNSURLRequest.m */,
 				FA8657D91153E12F006A1CA6 /* TestUIImage.h */,
 				FA8657DA1153E12F006A1CA6 /* TestUIImage.m */,
+				FADB4F25115C514700B068D2 /* TestUIImageView.h */,
+				FADB4F26115C514700B068D2 /* TestUIImageView.m */,
 				FA8657DB1153E12F006A1CA6 /* TestUINavigationController.h */,
 				FA8657DC1153E12F006A1CA6 /* TestUINavigationController.m */,
 				FA8657DD1153E12F006A1CA6 /* TestUIView.h */,
@@ -354,6 +359,7 @@
 				FA90BFD6115AC9660060D1E6 /* NSBundle+HelperKit.m in Sources */,
 				FAE53A41115B351E00646310 /* TestNSDictionary.m in Sources */,
 				FAE53A50115B365400646310 /* NSDictionary+HelperKit.m in Sources */,
+				FADB4F27115C514700B068D2 /* TestUIImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

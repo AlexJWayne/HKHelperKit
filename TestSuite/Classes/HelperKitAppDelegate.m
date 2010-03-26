@@ -17,6 +17,7 @@
 #import "TestNSURL.h"
 #import "TestNSURLRequest.h"
 #import "TestUIImage.h"
+#import "TestUIImageView.h"
 #import "TestUINavigationController.h"
 #import "TestUIView.h"
 
@@ -56,6 +57,7 @@
     [TestNSURL run];
     [TestNSURLRequest run];
     [TestUIImage run];
+    [TestUIImageView run];
     [TestUINavigationController run];
     [TestUIView run];
 }
