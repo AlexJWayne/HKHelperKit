@@ -22,7 +22,18 @@
     [self assert:@"[UIImageView viewWithImageNamed:] should create an image view" do:^{
         UIImageView *view = [UIImageView viewWithImageNamed:@"Home.png"];
         return (BOOL)(view.image == image);
-    }];    
+    }];
+    
+    [self assert:@"[UIImageView viewWithImageURL:] should create an image view" do:^{
+        UIImageView *view = [UIImageView viewWithImageURL:[[NSBundle mainBundle] urlForResource:@"Home.png"]];        
+        return (BOOL)(CGSizeEqualToSize(image.size, view.image.size));
+    }];
+    
+    [self assert:@"[UIImageView viewWithImageURLString:] should create an image view" do:^{
+        NSString *urlString = [[[NSBundle mainBundle] urlForResource:@"Home.png"] absoluteString];
+        UIImageView *view = [UIImageView viewWithImageURLString:urlString];
+        return (BOOL)(CGSizeEqualToSize(image.size, view.image.size));
+    }];
 }
 
 @end
