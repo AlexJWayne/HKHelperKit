@@ -25,6 +25,8 @@
 #import "TestUIView.h"
 #import "TestUIViewController.h"
 
+@interface FooController : UIViewController {}; @end
+@implementation FooController; @end
 
 @implementation HelperKitAppDelegate
 

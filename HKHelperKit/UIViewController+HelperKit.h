@@ -16,17 +16,23 @@
 
 // Creates controller with a nib named same as the class: "FooController" would load "FooController.xib"
 // This method will also look for for xib's with a specific naming convention based on device screen size
-// and orientation.  For example, in iPhone (or iPod Touch) in portrait will look for xibs inthe following
-// order:
+// and orientation.  This allows you to have a different xib for different devices and orientations with
+// very little extra work.
+//
+// For example, in iPhone (or iPod Touch) in portrait will look for xibs in the following order:
 // 
-//  * MyController.iPhone.Portrait.xib
-//  * MyController.iPhone.xib
+//  * MyController-iPhone-Portrait.xib
+//  * MyController-iPhone.xib
+//  * MyController-Portrait.xib
 //  * MYController.xib
 //
 // The first one that it finds will be loaded for the controllers view.  In the xib filename, the general
-// format is:
+// format is as follows, with the name with the highest priority first.
 //
 //   <ControllerClassName>.<ScreenType>.<Orientation>.xib
+//   <ControllerClassName>.<ScreenType>.xib
+//   <ControllerClassName>.<Orientation>.xib
+//   <ControllerClassName>.xib
 //
 // Supported screen types are currently "iPhone" and "iPad".
 // Supported orientations are currently "Portrait" and "Landscape"

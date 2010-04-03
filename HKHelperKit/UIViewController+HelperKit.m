@@ -43,11 +43,16 @@
     NSString *extendedNibName = nil;
     BOOL foundNib = NO;
     
-    extendedNibName = [NSString stringWithFormat:@"%@.%@.%@", name, deviceName, orientationName];
+    extendedNibName = [NSString stringWithFormat:@"%@-%@-%@", name, deviceName, orientationName];
     foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
     
     if (!foundNib) {
-        extendedNibName = [NSString stringWithFormat:@"%@.%@", name, deviceName];
+        extendedNibName = [NSString stringWithFormat:@"%@-%@", name, deviceName];
+        foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
+    }
+    
+    if (!foundNib) {
+        extendedNibName = [NSString stringWithFormat:@"%@-%@", name, orientationName];
         foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
     }
     

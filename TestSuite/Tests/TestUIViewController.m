@@ -9,9 +9,6 @@
 #import "TestUIViewController.h"
 
 
-@interface FooController : UIViewController {}; @end
-@implementation FooController; @end
-
 @implementation TestUIViewController
 
 - (void)tests {
