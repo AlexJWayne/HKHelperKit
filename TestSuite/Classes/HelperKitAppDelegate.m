@@ -38,6 +38,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {        
     // Override point for customization after app launch    
 	
+    window.frame = [UIScreen mainScreen].bounds;
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
     
