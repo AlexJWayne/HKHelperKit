@@ -18,4 +18,12 @@
 //
 - (BOOL)isEqualToAnyOf:objects, ...;
 
+// Tests for equality among a nil terminated list of objects using the isEqual: method.
+// Example:
+//
+//   NSArray *array = [NSArray arrayWithObjects:@"a", @"b", @"c", @"foo", @"d", nil];
+//   [@"foobar" isEqualToAnyInArray:array];
+//
+- (BOOL)isEqualToAnyInArray:(NSArray*)array;
+
 @end

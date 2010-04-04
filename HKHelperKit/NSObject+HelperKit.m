@@ -12,7 +12,6 @@
 @implementation NSObject (HelperKit)
 
 - (BOOL)isEqualToAnyOf:objects, ... {
-    // Add a button for each string after the first in the otherButtonTitles nil terminated list
     va_list args;
     va_start(args, objects);
     {
@@ -25,6 +24,15 @@
     }
     va_end(args);
     
+    return NO;
+}
+
+- (BOOL)isEqualToAnyInArray:(NSArray*)array {
+    for (NSObject *object in array) {
+        if ([self isEqual:object]) {
+            return YES;
+        }
+    }
     return NO;
 }
 
