@@ -25,6 +25,9 @@
 // Create an image based UIBarButtonItem
 + (UIBarButtonItem*)itemWithImage:(UIImage*)image style:(UIBarButtonItemStyle)style target:(id)target action:(SEL)action;
 
+// Ceate a custom view based UIBarButtonItem
++ (UIBarButtonItem*)itemWithCustomView:(UIView*)customView;
+
 // Create a flexible space UIBarButtonItem
 + (UIBarButtonItem*)flexibleSpace;
 

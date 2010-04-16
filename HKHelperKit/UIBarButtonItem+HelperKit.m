@@ -29,6 +29,10 @@
     return [[[UIBarButtonItem alloc] initWithImage:image style:style target:target action:action] autorelease];
 }
 
++ (UIBarButtonItem*)itemWithCustomView:(UIView*)view {
+    return [[[UIBarButtonItem alloc] initWithCustomView:view] autorelease];
+}
+
 + (UIBarButtonItem*)flexibleSpace {
     return [self itemWithSystemType:UIBarButtonSystemItemFlexibleSpace];
 }

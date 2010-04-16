@@ -257,6 +257,11 @@
 			FA79BCAB11780056006914B5 /* PBXTextBookmark */ = FA79BCAB11780056006914B5 /* PBXTextBookmark */;
 			FA79BCAC11780056006914B5 /* PBXTextBookmark */ = FA79BCAC11780056006914B5 /* PBXTextBookmark */;
 			FA79BCAD11780056006914B5 /* PBXTextBookmark */ = FA79BCAD11780056006914B5 /* PBXTextBookmark */;
+			FA79BCB3117800FA006914B5 /* PBXTextBookmark */ = FA79BCB3117800FA006914B5 /* PBXTextBookmark */;
+			FA79BCB4117800FA006914B5 /* PBXTextBookmark */ = FA79BCB4117800FA006914B5 /* PBXTextBookmark */;
+			FA79BCB5117800FA006914B5 /* PBXTextBookmark */ = FA79BCB5117800FA006914B5 /* PBXTextBookmark */;
+			FA79BCB6117800FA006914B5 /* PBXTextBookmark */ = FA79BCB6117800FA006914B5 /* PBXTextBookmark */;
+			FA79BCB7117800FA006914B5 /* PBXTextBookmark */ = FA79BCB7117800FA006914B5 /* PBXTextBookmark */;
 			FA8658251153E659006A1CA6 = FA8658251153E659006A1CA6 /* PBXTextBookmark */;
 			FA86582E1153E66A006A1CA6 = FA86582E1153E66A006A1CA6 /* PBXTextBookmark */;
 			FA90BFB6115AC8D00060D1E6 = FA90BFB6115AC8D00060D1E6 /* PlistBookmark */;
@@ -1644,6 +1649,56 @@
 		vrLen = 745;
 		vrLoc = 0;
 	};
+	FA79BCB3117800FA006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8657EC1153E14D006A1CA6 /* NSURL+HelperKit.m */;
+		name = "NSURL+HelperKit.m: 14";
+		rLen = 0;
+		rLoc = 335;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 0;
+	};
+	FA79BCB4117800FA006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8657EB1153E14D006A1CA6 /* NSURL+HelperKit.h */;
+		name = "NSURL+HelperKit.h: 23";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	FA79BCB5117800FA006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8657F41153E14D006A1CA6 /* UIBarButtonItem+HelperKit.m */;
+		name = "UIBarButtonItem+HelperKit.m: 33";
+		rLen = 0;
+		rLoc = 1251;
+		rType = 0;
+		vrLen = 1554;
+		vrLoc = 0;
+	};
+	FA79BCB6117800FA006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8657F31153E14D006A1CA6 /* UIBarButtonItem+HelperKit.h */;
+		name = "UIBarButtonItem+HelperKit.h: 29";
+		rLen = 59;
+		rLoc = 947;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 0;
+	};
+	FA79BCB7117800FA006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8657F31153E14D006A1CA6 /* UIBarButtonItem+HelperKit.h */;
+		name = "UIBarButtonItem+HelperKit.h: 29";
+		rLen = 0;
+		rLoc = 972;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 0;
+	};
 	FA8657D31153E12F006A1CA6 /* TestNSString.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1149, 875}}";
@@ -1802,11 +1857,18 @@
 			sepNavWindowFrame = "{{40, 186}, {937, 1041}}";
 		};
 	};
+	FA8657F31153E14D006A1CA6 /* UIBarButtonItem+HelperKit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 781}}";
+			sepNavSelRange = "{972, 0}";
+			sepNavVisRange = "{0, 1213}";
+		};
+	};
 	FA8657F41153E14D006A1CA6 /* UIBarButtonItem+HelperKit.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1420}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 781}}";
+			sepNavSelRange = "{1251, 0}";
+			sepNavVisRange = "{0, 1554}";
 		};
 	};
 	FA8657F51153E14D006A1CA6 /* UIImage+HelperKit.h */ = {
