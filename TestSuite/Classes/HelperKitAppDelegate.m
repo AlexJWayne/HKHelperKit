@@ -13,6 +13,7 @@
 
 #import "TestNSBundle.h"
 #import "TestNSDictionary.h"
+#import "TestNSMutableURLRequest.h"
 #import "TestNSObject.h"
 #import "TestNSString.h"
 #import "TestNSURL.h"
@@ -39,17 +40,17 @@
     // Override point for customization after app launch    
 	
     window.frame = [UIScreen mainScreen].bounds;
-	[window addSubview:[navigationController view]];
+    [window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
     
     [self performTests];
 }
 
 - (void)dealloc {
-	self.navigationController = nil;
-	self.window = nil;
+    self.navigationController = nil;
+    self.window = nil;
     self.testResults = nil;
-	[super dealloc];
+    [super dealloc];
 }
 
 
@@ -60,6 +61,7 @@
     
     [TestNSBundle run];
     [TestNSDictionary run];
+    [TestNSMutableURLRequest run];
     [TestNSObject run];
     [TestNSString run];
     [TestNSURL run];

@@ -12,7 +12,7 @@
 @implementation TestSuite
 
 - (NSString*)context {
-    NSString *className = [NSString stringWithCString:object_getClassName([self class])];
+    NSString *className = [NSString stringWithCString:object_getClassName([self class]) encoding:NSASCIIStringEncoding];
     return [className stringByReplacingOccurrencesOfString:@"Test" withString:@""];
 }
 

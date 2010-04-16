@@ -14,6 +14,8 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		FA79BBE71177F877006914B5 /* NSMutableURLRequest+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BBE61177F877006914B5 /* NSMutableURLRequest+HelperKit.m */; };
+		FA79BBEF1177FA10006914B5 /* TestNSMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BBEE1177FA10006914B5 /* TestNSMutableURLRequest.m */; };
 		FA8657741153E045006A1CA6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8657731153E045006A1CA6 /* RootViewController.xib */; };
 		FA8657DF1153E12F006A1CA6 /* TestNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657D41153E12F006A1CA6 /* TestNSString.m */; };
 		FA8657E01153E12F006A1CA6 /* TestNSURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8657D61153E12F006A1CA6 /* TestNSURL.m */; };
@@ -68,6 +70,10 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelperKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelperKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FA79BBE51177F877006914B5 /* NSMutableURLRequest+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+HelperKit.h"; path = "../TestSuite/Tests/NSMutableURLRequest+HelperKit.h"; sourceTree = "<group>"; };
+		FA79BBE61177F877006914B5 /* NSMutableURLRequest+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+HelperKit.m"; path = "../TestSuite/Tests/NSMutableURLRequest+HelperKit.m"; sourceTree = "<group>"; };
+		FA79BBED1177FA10006914B5 /* TestNSMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSMutableURLRequest.h; sourceTree = "<group>"; };
+		FA79BBEE1177FA10006914B5 /* TestNSMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSMutableURLRequest.m; sourceTree = "<group>"; };
 		FA8657731153E045006A1CA6 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		FA8657D31153E12F006A1CA6 /* TestNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestNSString.h; path = Tests/TestNSString.h; sourceTree = SOURCE_ROOT; };
 		FA8657D41153E12F006A1CA6 /* TestNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSString.m; path = Tests/TestNSString.m; sourceTree = SOURCE_ROOT; };
@@ -236,6 +242,8 @@
 				FADB50F8115C890600B068D2 /* TestUIDevice.m */,
 				FAE53A3F115B351E00646310 /* TestNSDictionary.h */,
 				FAE53A40115B351E00646310 /* TestNSDictionary.m */,
+				FA79BBED1177FA10006914B5 /* TestNSMutableURLRequest.h */,
+				FA79BBEE1177FA10006914B5 /* TestNSMutableURLRequest.m */,
 				FADB513A115C8CB000B068D2 /* TestNSObject.h */,
 				FADB513B115C8CB000B068D2 /* TestNSObject.m */,
 				FA8657D31153E12F006A1CA6 /* TestNSString.h */,
@@ -288,6 +296,8 @@
 				FA8657F61153E14D006A1CA6 /* UIImage+HelperKit.m */,
 				FA8657F71153E14D006A1CA6 /* UIImageView+HelperKit.h */,
 				FA8657F81153E14D006A1CA6 /* UIImageView+HelperKit.m */,
+				FA79BBE51177F877006914B5 /* NSMutableURLRequest+HelperKit.h */,
+				FA79BBE61177F877006914B5 /* NSMutableURLRequest+HelperKit.m */,
 				FA8657F91153E14D006A1CA6 /* UINavigationController+HelperKit.h */,
 				FA8657FA1153E14D006A1CA6 /* UINavigationController+HelperKit.m */,
 				FA8657FB1153E14D006A1CA6 /* UITableView+HelperKit.h */,
@@ -404,6 +414,8 @@
 				FADB5102115C89FE00B068D2 /* UIDevice+HelperKit.m in Sources */,
 				FADB513C115C8CB000B068D2 /* TestNSObject.m in Sources */,
 				FADB514F115C8DEF00B068D2 /* NSObject+HelperKit.m in Sources */,
+				FA79BBE71177F877006914B5 /* NSMutableURLRequest+HelperKit.m in Sources */,
+				FA79BBEF1177FA10006914B5 /* TestNSMutableURLRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,6 +30,7 @@
     return [[[self alloc] initWithNibName:nibNameOrNil bundle:bundle] autorelease];
 }
 
+// 4.0 SDK - Use UINib?
 - (id)initWithNibName:(NSString *)name {
     NSString *deviceName = [UIDevice currentDevice].screenTypeString;
     NSString *orientationName;

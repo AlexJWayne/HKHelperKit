@@ -18,7 +18,7 @@
     return [self requestWithURL:[NSURL URLWithString:urlString]];
 }
 
-- (NSString*)httpBody {
+- (NSString*)body {
     return [NSString stringWithData:[self HTTPBody]];
 }
 

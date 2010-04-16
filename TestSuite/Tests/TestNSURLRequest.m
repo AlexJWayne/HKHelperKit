@@ -25,9 +25,9 @@
         return (BOOL)(expected == req.cachePolicy);
     }];
     
-    [self assert:@"httpBody should be a property" do:^{
+    [self assert:@"requestBody should be a property" do:^{
         [req setHTTPBody:[@"foobar" data]];
-        return (BOOL)([req.httpBody isEqualToString:@"foobar"]);
+        return (BOOL)([req.body isEqualToString:@"foobar"]);
     }];
     
     [self assert:@"httpMethod should be a property" do:^{

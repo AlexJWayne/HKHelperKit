@@ -10,6 +10,7 @@
 
 #import "NSBundle+HelperKit.h"
 #import "NSDictionary+HelperKit.h"
+#import "NSMutableURLRequest+HelperKit.h"
 #import "NSObject+HelperKit.h"
 #import "NSString+HelperKit.h"
 #import "NSURL+HelperKit.h"
