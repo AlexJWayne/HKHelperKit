@@ -197,90 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>FA79BC0A1177FB37006914B5</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>NSMutableURLRequest+HelperKit.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>FA79BC0B1177FB37006914B5</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>NSMutableURLRequest+HelperKit.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>FA79BC771177FE21006914B5</string>
-						<key>history</key>
-						<array>
-							<string>FA79BC751177FE21006914B5</string>
-							<string>FA79BC761177FE21006914B5</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {937, 1000}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>105 236 937 1041 0 0 2560 1418 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>FA79BC0F1177FB37006914B5</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>NSURLRequest+HelperKit.h</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>FA79BC101177FB37006914B5</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>NSURLRequest+HelperKit.h</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>FA79BC781177FE21006914B5</string>
-						<key>history</key>
-						<array>
-							<string>FA79BC561177FD11006914B5</string>
-							<string>FA79BC3E1177FC8A006914B5</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {937, 1000}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 372 937 1041 0 0 2560 1418 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>1514</integer>
@@ -364,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>29</integer>
-									<integer>17</integer>
+									<integer>62</integer>
+									<integer>48</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -405,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FA25BD1B112B73FB000601BE</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TestNSMutableURLRequest.m</string>
+								<string>NSURL+HelperKit.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -413,18 +330,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FA25BD1C112B73FB000601BE</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TestNSMutableURLRequest.m</string>
+										<string>NSURL+HelperKit.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA79BC741177FE21006914B5</string>
+										<string>FA79BCAD11780056006914B5</string>
 										<key>history</key>
 										<array>
 											<string>FA8658251153E659006A1CA6</string>
 											<string>FA86582E1153E66A006A1CA6</string>
 											<string>FADCE233115557DF009892B7</string>
 											<string>FADCE24B1155592D009892B7</string>
-											<string>FADCE24C1155592D009892B7</string>
 											<string>FADCE25C11555B81009892B7</string>
 											<string>FADCE25D11555B81009892B7</string>
 											<string>FADCE26311555B81009892B7</string>
@@ -433,10 +349,8 @@
 											<string>FADCE26811555B81009892B7</string>
 											<string>FADCE26911555B81009892B7</string>
 											<string>FADCE26A11555B81009892B7</string>
-											<string>FADCE26E11555B81009892B7</string>
 											<string>FADCE27011555B81009892B7</string>
 											<string>FA90BFB6115AC8D00060D1E6</string>
-											<string>FA90BFF6115ACA7C0060D1E6</string>
 											<string>FA90C00C115ACAC70060D1E6</string>
 											<string>FA90C048115ACFC00060D1E6</string>
 											<string>FA90C049115ACFC00060D1E6</string>
@@ -490,7 +404,11 @@
 											<string>FA79BC4A1177FCCA006914B5</string>
 											<string>FA79BC521177FD11006914B5</string>
 											<string>FA79BC531177FD11006914B5</string>
-											<string>FA79BC541177FD11006914B5</string>
+											<string>FA79BC811177FEC4006914B5</string>
+											<string>FA79BC991177FF30006914B5</string>
+											<string>FA79BC9A1177FF30006914B5</string>
+											<string>FA79BCAB11780056006914B5</string>
+											<string>FA79BCAC11780056006914B5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -807,12 +725,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FA79BC791177FE21006914B5</string>
+		<string>FA79BCAE11780056006914B5</string>
 		<string>FA79BBE41177F64B006914B5</string>
 		<string>FA79BBE21177F62C006914B5</string>
-		<string>FA79BC0F1177FB37006914B5</string>
 		<string>/Users/alex/Projects/HelperKit/TestSuite/HelperKit.xcodeproj</string>
-		<string>FA79BC0A1177FB37006914B5</string>
 	</array>
 	<key>WindowString</key>
 	<string>541 43 1514 1375 0 0 2560 1418 </string>

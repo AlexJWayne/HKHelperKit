@@ -11,6 +11,8 @@
 
 @implementation NSURL (HelperKit)
 
+@dynamic host, scheme, fragment, path, pathExtension, pathComponents, lastPathComponent, port, query;
+
 - (NSDictionary*)queryDictionary {
     NSMutableDictionary *result = [NSMutableDictionary dictionary];
     

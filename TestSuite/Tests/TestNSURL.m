@@ -22,7 +22,15 @@
         BOOL correctValue2 = [[dictionary objectForKey:@"word"] isEqualToString:@"some thing"];
         
         return (BOOL)(correctAmount && correctValue1 && correctValue2);
-    }];    
+    }];
+    
+    [self assert:@"queryDictionary should be a property" do:^{
+        return (BOOL)([url.queryDictionary isKindOfClass:[NSDictionary class]]);
+    }];
+    
+    [self assert:@"host should be a property" do:^{
+        return (BOOL)([url.host isEqualToString:@"foobar.com"]);
+    }];
 }
 
 @end

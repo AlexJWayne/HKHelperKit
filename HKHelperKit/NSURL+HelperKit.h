@@ -11,6 +11,15 @@
 
 @interface NSURL (HelperKit)
 
-- (NSDictionary*)queryDictionary;
+@property (nonatomic, readonly) NSDictionary *queryDictionary;
+@property (nonatomic, readonly) NSString *host;
+@property (nonatomic, readonly) NSString *scheme;
+@property (nonatomic, readonly) NSString *fragment;
+@property (nonatomic, readonly) NSString *path;
+@property (nonatomic, readonly) NSString *pathExtension;
+@property (nonatomic, readonly) NSArray *pathComponents;
+@property (nonatomic, readonly) NSString *lastPathComponent;
+@property (nonatomic, readonly) NSNumber *port;
+@property (nonatomic, readonly) NSString *query;
 
 @end
