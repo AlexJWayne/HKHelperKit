@@ -29,6 +29,11 @@
         NSURL *expected = [NSURL fileURLWithPath:[bundle pathForResource:@"Home.png"]];
         return (BOOL)([[expected absoluteString] isEqualToString:[actual absoluteString]]);
     }];
+    
+// -(NSString*)nibName:(NSString*)baseName forDevice:(BOOL)useDevice forOrientation:(BOOL)useOrientation;
+//    [self assert:@"" do:^{
+//        
+//    }];
 }
 
 @end

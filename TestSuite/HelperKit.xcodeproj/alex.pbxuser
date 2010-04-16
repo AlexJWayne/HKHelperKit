@@ -23,9 +23,9 @@
 	};
 	28A0AAE50D9B0CCF005BE974 /* HelperKit_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1453, 668}}";
-			sepNavSelRange = "{355, 0}";
-			sepNavVisRange = "{0, 355}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 852}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRange = "{0, 324}";
 		};
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
@@ -46,7 +46,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = FA25BD09112B73F4000601BE /* HelperKit */;
-		activeSDKPreference = iphonesimulator3.2;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* HelperKit */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* HelperKit */,
@@ -126,11 +126,10 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292034048;
-			PBXWorkspaceStateSaveDate = 292034048;
+			PBXPerProjectTemplateStateSaveDate = 293074385;
+			PBXWorkspaceStateSaveDate = 293074385;
 		};
 		perUserProjectItems = {
-			FA3F2628116149BE001CF1D6 = FA3F2628116149BE001CF1D6 /* PBXTextBookmark */;
 			FA3F2629116149BE001CF1D6 = FA3F2629116149BE001CF1D6 /* PBXTextBookmark */;
 			FA3F26A211616EEA001CF1D6 = FA3F26A211616EEA001CF1D6 /* PBXTextBookmark */;
 			FA3F26A311616EEA001CF1D6 = FA3F26A311616EEA001CF1D6 /* PBXTextBookmark */;
@@ -150,16 +149,21 @@
 			FA48B95B11680E55009970D3 = FA48B95B11680E55009970D3 /* PBXTextBookmark */;
 			FA48B95C11680E55009970D3 = FA48B95C11680E55009970D3 /* PBXTextBookmark */;
 			FA48B95D11680E55009970D3 = FA48B95D11680E55009970D3 /* PBXTextBookmark */;
-			FA48B95E11680E55009970D3 = FA48B95E11680E55009970D3 /* PBXTextBookmark */;
-			FA48B95F11680E55009970D3 = FA48B95F11680E55009970D3 /* PBXTextBookmark */;
-			FA48B99211681602009970D3 /* PBXTextBookmark */ = FA48B99211681602009970D3 /* PBXTextBookmark */;
-			FA48B99311681602009970D3 /* PBXTextBookmark */ = FA48B99311681602009970D3 /* PBXTextBookmark */;
+			FA48B99811685BC6009970D3 = FA48B99811685BC6009970D3 /* PBXTextBookmark */;
+			FA48B99911685BC6009970D3 = FA48B99911685BC6009970D3 /* PBXTextBookmark */;
+			FA48B99A11685BC6009970D3 = FA48B99A11685BC6009970D3 /* PBXTextBookmark */;
+			FA48B99B11685BC6009970D3 = FA48B99B11685BC6009970D3 /* PBXTextBookmark */;
+			FA79BBBC1177F5D4006914B5 /* PBXTextBookmark */ = FA79BBBC1177F5D4006914B5 /* PBXTextBookmark */;
+			FA79BBD71177F62C006914B5 /* PBXTextBookmark */ = FA79BBD71177F62C006914B5 /* PBXTextBookmark */;
+			FA79BBD81177F62C006914B5 /* PBXTextBookmark */ = FA79BBD81177F62C006914B5 /* PBXTextBookmark */;
+			FA79BBD91177F62C006914B5 /* XCBuildMessageTextBookmark */ = FA79BBD91177F62C006914B5 /* XCBuildMessageTextBookmark */;
+			FA79BBDA1177F62C006914B5 /* PBXTextBookmark */ = FA79BBDA1177F62C006914B5 /* PBXTextBookmark */;
+			FA79BBE31177F64B006914B5 /* PBXTextBookmark */ = FA79BBE31177F64B006914B5 /* PBXTextBookmark */;
 			FA8658251153E659006A1CA6 = FA8658251153E659006A1CA6 /* PBXTextBookmark */;
 			FA86582E1153E66A006A1CA6 = FA86582E1153E66A006A1CA6 /* PBXTextBookmark */;
 			FA90BFB6115AC8D00060D1E6 = FA90BFB6115AC8D00060D1E6 /* PlistBookmark */;
 			FA90BFF6115ACA7C0060D1E6 = FA90BFF6115ACA7C0060D1E6 /* PBXTextBookmark */;
 			FA90C00C115ACAC70060D1E6 = FA90C00C115ACAC70060D1E6 /* PBXBookmark */;
-			FA90C01F115ACB230060D1E6 = FA90C01F115ACB230060D1E6 /* PBXTextBookmark */;
 			FA90C048115ACFC00060D1E6 = FA90C048115ACFC00060D1E6 /* PBXTextBookmark */;
 			FA90C049115ACFC00060D1E6 = FA90C049115ACFC00060D1E6 /* PBXTextBookmark */;
 			FAA6A2F41153F893006E2B9D = FAA6A2F41153F893006E2B9D /* PBXTextBookmark */;
@@ -250,16 +254,6 @@
 	FA25BD22112B73FB000601BE /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	FA3F2628116149BE001CF1D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
-		name = "TestNSBundle.m: 27";
-		rLen = 0;
-		rLoc = 846;
-		rType = 0;
-		vrLen = 1155;
-		vrLoc = 0;
 	};
 	FA3F2629116149BE001CF1D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -451,44 +445,103 @@
 		vrLen = 1320;
 		vrLoc = 0;
 	};
-	FA48B95E11680E55009970D3 /* PBXTextBookmark */ = {
+	FA48B99811685BC6009970D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */;
-		name = "NSObject+HelperKit.m: 15";
+		name = "NSObject+HelperKit.m: 17";
 		rLen = 0;
-		rLoc = 270;
+		rLoc = 305;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
 	};
-	FA48B95F11680E55009970D3 /* PBXTextBookmark */ = {
+	FA48B99911685BC6009970D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */;
-		name = "NSObject+HelperKit.m: 15";
+		fRef = FADF3555115AC7E200E67276 /* TestNSBundle.h */;
+		name = "TestNSBundle.h: 15";
 		rLen = 0;
-		rLoc = 270;
+		rLoc = 236;
 		rType = 0;
-		vrLen = 713;
+		vrLen = 242;
 		vrLoc = 0;
 	};
-	FA48B99211681602009970D3 /* PBXTextBookmark */ = {
+	FA48B99A11685BC6009970D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */;
-		name = "NSObject+HelperKit.m: 15";
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		name = "TestNSBundle.m: 31";
 		rLen = 0;
-		rLoc = 270;
+		rLoc = 1307;
 		rType = 0;
-		vrLen = 713;
+		vrLen = 1155;
 		vrLoc = 0;
 	};
-	FA48B99311681602009970D3 /* PBXTextBookmark */ = {
+	FA48B99B11685BC6009970D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */;
-		name = "NSObject+HelperKit.m: 15";
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		name = "TestNSBundle.m: 35";
 		rLen = 0;
-		rLoc = 270;
+		rLoc = 1258;
 		rType = 0;
-		vrLen = 713;
+		vrLen = 1314;
+		vrLoc = 0;
+	};
+	FA79BBBC1177F5D4006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		name = "TestNSBundle.m: 30";
+		rLen = 0;
+		rLoc = 1103;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 0;
+	};
+	FA79BBD71177F62C006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HelperKitAppDelegate.m */;
+		name = "HelperKitAppDelegate.m: 41";
+		rLen = 0;
+		rLoc = 951;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 417;
+	};
+	FA79BBD81177F62C006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AAE50D9B0CCF005BE974 /* HelperKit_Prefix.pch */;
+		name = "HelperKit_Prefix.pch: 6";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	FA79BBD91177F62C006914B5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incompatible block pointer types initializing 'void (^)(void)', expected 'BOOL (^)()'";
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 35;
+		rType = 1;
+	};
+	FA79BBDA1177F62C006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		name = "TestNSBundle.m: 34";
+		rLen = 50;
+		rLoc = 1258;
+		rType = 0;
+		vrLen = 1320;
+		vrLoc = 0;
+	};
+	FA79BBE31177F64B006914B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADF3556115AC7E200E67276 /* TestNSBundle.m */;
+		name = "TestNSBundle.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1316;
 		vrLoc = 0;
 	};
 	FA8657D31153E12F006A1CA6 /* TestNSString.h */ = {
@@ -808,16 +861,6 @@
 		isa = PBXBookmark;
 		fRef = FA90BFC8115AC8F50060D1E6 /* Home.png */;
 	};
-	FA90C01F115ACB230060D1E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FADF3555115AC7E200E67276 /* TestNSBundle.h */;
-		name = "TestNSBundle.h: 15";
-		rLen = 0;
-		rLoc = 236;
-		rType = 0;
-		vrLen = 242;
-		vrLoc = 0;
-	};
 	FA90C048115ACFC00060D1E6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA90BFD4115AC9660060D1E6 /* NSBundle+HelperKit.h */;
@@ -843,7 +886,7 @@
 		fRef = 28A0AAE50D9B0CCF005BE974 /* HelperKit_Prefix.pch */;
 		name = "HelperKit_Prefix.pch: 16";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 324;
 		rType = 0;
 		vrLen = 355;
 		vrLoc = 0;
@@ -1097,7 +1140,7 @@
 	FADB514E115C8DEF00B068D2 /* NSObject+HelperKit.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1149, 859}}";
-			sepNavSelRange = "{270, 0}";
+			sepNavSelRange = "{305, 0}";
 			sepNavVisRange = "{0, 713}";
 		};
 	};
@@ -1277,16 +1320,16 @@
 	};
 	FADF3555115AC7E200E67276 /* TestNSBundle.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1149, 1274}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 859}}";
 			sepNavSelRange = "{236, 0}";
 			sepNavVisRange = "{0, 242}";
 		};
 	};
 	FADF3556115AC7E200E67276 /* TestNSBundle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1149, 892}}";
-			sepNavSelRange = "{846, 0}";
-			sepNavVisRange = "{0, 1155}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 829}}";
+			sepNavSelRange = "{1155, 0}";
+			sepNavVisRange = "{0, 1316}";
 			sepNavWindowFrame = "{{15, 372}, {937, 1041}}";
 		};
 	};
