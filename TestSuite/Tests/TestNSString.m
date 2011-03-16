@@ -58,9 +58,15 @@
         return (BOOL)[[@"foo%2F%3Fa%3Db" stringByUnescapingURL] isEqualToString:@"foo/?a=b"];
     }];
     
-//    [self assert:@"stringByEscapingHTML should escape HTML" do:^{
-//        return (BOOL)[[@"<foo>bar</foo>" stringByEscapingHTML] isEqualToString:@"&lt;foo&gt;bar&lt;foo&gt;"];
-//    }];
+    [self assert:@"dateWithFormat: should parse a string into a date" do:^{
+        return (BOOL)[[@"1970 Dec, 31" dateWithFormat:@"yyyy MMM, d"] laterDate:[NSDate dateWithTimeIntervalSince1970:0]];
+    }];
+    
+    [self assert:@"dateWithFormats: should parse a string into a date" do:^{
+        NSArray *formats = [NSArray arrayWithObjects:@"yy M, d", @"hh:mm", @"yyyy MMM, d", nil];
+        return (BOOL)[[@"1970 Dec, 31" dateWithFormats:formats] laterDate:[NSDate dateWithTimeIntervalSince1970:0]];
+    }];
+    
     
 }
 

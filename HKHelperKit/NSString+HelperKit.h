@@ -36,6 +36,13 @@
 // Returns a string as data, with the default of ASCII encoding
 - (NSData*)data;
 
+// Returns a date parsed by a provided format string
+- (NSDate*)dateWithFormat:(NSString*)dateFormat;
+
+// Returns a date parsed by any matching format strings
+- (NSDate*)dateWithFormats:(NSArray*)dateFormats;
+
+
 #pragma mark Escaping
 
 // Returns a new string with URL unsafe characters escaped

@@ -48,6 +48,24 @@
     return [self dataUsingEncoding:NSASCIIStringEncoding];
 }
 
+- (NSDate*)dateWithFormat:(NSString*)dateFormat {
+    NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
+    [formatter setDateFormat:dateFormat];
+    return [formatter dateFromString:self];
+}
+
+- (NSDate*)dateWithFormats:(NSArray*)dateFormats {
+    NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDate *result = nil;
+    for (NSString *format in dateFormats) {
+        [formatter setDateFormat:format];
+        result = [formatter dateFromString:self];
+        if (result) return result;
+    }
+    return nil;
+}
+
+
 
 #pragma mark Escaping
 
