@@ -9,6 +9,7 @@
 #import "CGRect+HelperKit.h"
 
 #import "NSBundle+HelperKit.h"
+#import "NSDate+HelperKit.h"
 #import "NSDictionary+HelperKit.h"
 #import "NSMutableURLRequest+HelperKit.h"
 #import "NSObject+HelperKit.h"

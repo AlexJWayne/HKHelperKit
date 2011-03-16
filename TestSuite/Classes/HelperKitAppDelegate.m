@@ -12,6 +12,7 @@
 #import "HKHelperKit.h"
 
 #import "TestNSBundle.h"
+#import "TestNSDate.h"
 #import "TestNSDictionary.h"
 #import "TestNSMutableURLRequest.h"
 #import "TestNSObject.h"
@@ -60,6 +61,7 @@
     self.testResults = [NSMutableDictionary dictionary];
     
     [TestNSBundle run];
+    [TestNSDate run];
     [TestNSDictionary run];
     [TestNSMutableURLRequest run];
     [TestNSObject run];
