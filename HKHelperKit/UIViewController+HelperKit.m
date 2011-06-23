@@ -18,10 +18,6 @@
     return [self controllerWithNibName:nil bundle:nil];
 }
 
-+ (id)controllerWithNib {
-    return [[[self alloc] initWithNib] autorelease];
-}
-
 + (id)controllerWithNibName:(NSString*)nibNameOrNil {
     return [self controllerWithNibName:nibNameOrNil bundle:nil];
 }
@@ -30,45 +26,9 @@
     return [[[self alloc] initWithNibName:nibNameOrNil bundle:bundle] autorelease];
 }
 
-// 4.0 SDK - Use UINib?
 - (id)initWithNibName:(NSString *)name {
-    NSString *deviceName = [UIDevice currentDevice].screenTypeString;
-    NSString *orientationName;
-    if (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation)) {
-        orientationName = @"Portrait";
-    } else {
-        orientationName = @"Landscape";
-    }
-    
-    NSBundle *bundle = [NSBundle mainBundle];
-    NSString *extendedNibName = nil;
-    BOOL foundNib = NO;
-    
-    extendedNibName = [NSString stringWithFormat:@"%@-%@-%@", name, deviceName, orientationName];
-    foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
-    
-    if (!foundNib) {
-        extendedNibName = [NSString stringWithFormat:@"%@-%@", name, deviceName];
-        foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
-    }
-    
-    if (!foundNib) {
-        extendedNibName = [NSString stringWithFormat:@"%@-%@", name, orientationName];
-        foundNib = ([bundle loadNibNamed:extendedNibName owner:nil options:nil] != nil);
-    }
-    
-    if (!foundNib) {
-        extendedNibName = name;
-    }
-    
-    return [self initWithNibName:extendedNibName bundle:nil];
+    return [self initWithNibName:name bundle:nil];
 }
-
-- (id)initWithNib {
-    NSString *className = NSStringFromClass([self class]);
-    return [self initWithNibName:className];
-}
-
 
 #pragma mark Animation Helpers
 
