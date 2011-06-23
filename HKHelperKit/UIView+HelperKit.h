@@ -46,6 +46,12 @@
 - (void)tranlateFrame:(CGPoint)distance;
 
 
+#pragma mark Image Capture
+
+// Returns a UIImage that is a snapshot of the UIView
+- (UIImage*)captureImage;
+
+
 #pragma mark Animation
 
 // Animates a view fade in.  These methods will not set the starting alpha for

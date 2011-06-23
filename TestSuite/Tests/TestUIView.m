@@ -109,6 +109,15 @@
         view.frameHeight = 123;
         return (BOOL)(123 == view.frameHeight);
     }];
+    
+    // Doesn't work, not sure how to verify this one.
+//    [self assert:@"captureImage should return an image of the contents" do:^{
+//        NSData *expectedData = UIImagePNGRepresentation([UIImage imageNamed:@"Home.png"]);
+//        UIImageView *view = [UIImageView viewWithImageNamed:@"Home.png"];
+//        NSData *actual = UIImagePNGRepresentation([view captureImage]);
+//        
+//        return (BOOL)([expectedData isEqualToData:actual]);
+//    }];
 }
 
 @end

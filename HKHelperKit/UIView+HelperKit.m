@@ -100,6 +100,17 @@
     self.frame = newFrame;
 }
 
+#pragma mark Image Capture
+
+- (UIImage*)captureImage {
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return result;
+}
+
 #pragma mark Animation
 
 - (void)animateFadeIn {

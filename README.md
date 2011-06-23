@@ -6,7 +6,7 @@ HKHelperKit fixes some annoyances when developing Objective-C applications.  Mos
 
 1. Clone this repository into a subfolder within your project.
 2. Drag the `HKHelperKit` inside this repository to your XCode project, NOT including the `TestSuite` fiolder.
-3. Now simply use `#include "HKHelperKit.h"` anywhere that you want to use `HKHelperKit` methods.
+3. Now simply use `#include "HKHelperKit.h"` anywhere that you want to use `HKHelperKit` methods. (I like the `.pch` file so it's everytwhere)
 
 ## Features
 

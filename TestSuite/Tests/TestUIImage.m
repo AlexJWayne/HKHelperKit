@@ -22,7 +22,7 @@
     
     [self assert:@"imageByResizing: should resize image" do:^{
         return (BOOL)([image imageByResizing:CGSizeMake(50, 50)].size.width == 50);
-    }];
+    }];    
 }
 
 
