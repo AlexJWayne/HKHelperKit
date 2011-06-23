@@ -19,4 +19,7 @@
 // Returns a new UIImage resized to the provided size, ignoring aspect ratio
 - (UIImage*)imageByResizing:(CGSize)newSize;
 
+// Returns a new UIImage, masked by maskImage
+- (UIImage*)imageByMasking:(UIImage*)maskImage;
+
 @end

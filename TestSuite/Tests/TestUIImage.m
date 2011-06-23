@@ -22,7 +22,15 @@
     
     [self assert:@"imageByResizing: should resize image" do:^{
         return (BOOL)([image imageByResizing:CGSizeMake(50, 50)].size.width == 50);
-    }];    
+    }];
+    
+    [self assert:@"imageByMasking: should return an image masked by a mask image" do:^{
+        UIImage *image = [UIImage imageNamed:@"Home.png"];
+        [image imageByMasking:[UIImage imageNamed:@"Home.png"]];
+        
+        // Too hard to test, so just ensure it doesn't crash 
+        return (BOOL)(YES);
+    }];
 }
 
 

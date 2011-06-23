@@ -33,4 +33,23 @@
     return newImage;
 }
 
+- (UIImage*)imageByMasking:(UIImage*)maskImage {
+    CGImageRef maskRef = maskImage.CGImage;
+    
+	CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(maskRef),
+                                        CGImageGetHeight(maskRef),
+                                        CGImageGetBitsPerComponent(maskRef),
+                                        CGImageGetBitsPerPixel(maskRef),
+                                        CGImageGetBytesPerRow(maskRef),
+                                        CGImageGetDataProvider(maskRef), NULL, false);
+    
+	CGImageRef masked = CGImageCreateWithMask(self.CGImage, mask);
+	UIImage *result = [UIImage imageWithCGImage:masked];
+    
+    CGImageRelease(mask);
+    CGImageRelease(masked);
+    
+    return result;
+}
+
 @end
