@@ -10,3 +10,5 @@ build/
 
 *.mode1v3
 *.mode2v3
+
+TestSuite/HelperKit.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate
